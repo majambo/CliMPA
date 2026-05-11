@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rproj
+*.nc
+data/bioracle/ssp245
+data/bioracle/ssp585
+data/bioracle/thetao_mean_baseline.nc
