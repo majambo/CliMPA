@@ -2,9 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
-.Rproj
+CliMPA.Rproj
 *.nc
+*.tif
+data/bioracle/ssp126
 data/bioracle/ssp245
 data/bioracle/ssp585
 data/bioracle/thetao_mean_baseline.nc
+<<<<<<< Updated upstream
 indicators/01_SST/data/raw/
+=======
+output/to_check
+>>>>>>> Stashed changes

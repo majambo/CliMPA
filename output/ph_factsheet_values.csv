@@ -1,0 +1,8 @@
+placeholder,value,notes
+OA_BASELINE_PH,8.005,"Mean pH across MIMP polygon, Bio-Oracle baseline 2000-2018"
+OA_PH_SSP126_2050,7.9373,Bio-Oracle v3.0 SSP1-2.6
+OA_PH_SSP585_2050,7.8749,Bio-Oracle v3.0 SSP5-8.5
+OA_PH_SSP126_2090,7.9392,Bio-Oracle v3.0 SSP1-2.6
+OA_PH_SSP585_2090,7.6637,Bio-Oracle v3.0 SSP5-8.5
+OA_DELTA_PH_SSP126_2090,-0.0658,Change from baseline
+OA_DELTA_PH_SSP585_2090,-0.3413,Change from baseline

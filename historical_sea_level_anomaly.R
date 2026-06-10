@@ -116,22 +116,22 @@ fig_ts <- ggplot() +
   geom_line(data = slr_df,
             aes(x = date, y = predicted),
             colour = "#D7191C", linewidth = 1.0, linetype = "solid") +
-  # # Trend annotation
-  # annotate("text",
-  #          x     = as.Date("1994-01-01"),
-  #          y     = max(slr_df$sla_mm, na.rm = TRUE) * 0.92,
-  #          label = paste0(
-  #            "Trend: ", trend_mm_yr, " \u00b1 ", trend_se, " mm/year\n",
-  #            "95% CI: ", trend_ci_low, "\u2013", trend_ci_high,
-  #            " mm/year\n",
-  #            "R\u00b2 = ", r_squared, "\n",
-  #            "Total rise: ", total_rise_mm, " mm (",
-  #            round(total_years), " years)\n",
-  #            "IPCC AR6 global mean: ", ipcc_global_rate, " mm/year"
-  #          ),
-  #          hjust = 0, vjust = 1,
-  #          size = 3.0, colour = "#D7191C",
-  #          fontface = "italic") +
+  # Trend annotation
+  annotate("text",
+           x     = as.Date("1994-01-01"),
+           y     = max(slr_df$sla_mm, na.rm = TRUE) * 0.92,
+           label = paste0(
+             "Trend: ", trend_mm_yr, " \u00b1 ", trend_se, " mm/year\n",
+             "95% CI: ", trend_ci_low, "\u2013", trend_ci_high,
+             " mm/year\n",
+             "R\u00b2 = ", r_squared, "\n",
+             "Total rise: ", total_rise_mm, " mm (",
+             round(total_years), " years)\n",
+             "IPCC AR6 global mean: ", ipcc_global_rate, " mm/year"
+           ),
+           hjust = 0, vjust = 1,
+           size = 3.0, colour = "#D7191C",
+           fontface = "italic") +
   scale_x_date(date_breaks = "5 years", date_labels = "%Y") +
   labs(
     title    = "MIMP Mean Sea Level Anomaly (1993-2023)",
@@ -201,5 +201,4 @@ message("Total rise 1993-2023 : ", total_rise_mm, " mm")
 message("IPCC AR6 global mean : ", ipcc_global_rate, " mm/year")
 message("Local vs global      : ",
         round(trend_mm_yr - ipcc_global_rate, 2), " mm/year")
-message("================================================\n")
 

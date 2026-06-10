@@ -1,5 +1,5 @@
 # Extracting Sea Level Anomaly statistics for all WIO MPAs 
-# Data from the C3S satellite altimetry gridded monthly product (1993–2023).
+# Data from the C3S satellite altimetry gridded monthly product (1993-2023)
 
 library(terra)
 library(sf)
