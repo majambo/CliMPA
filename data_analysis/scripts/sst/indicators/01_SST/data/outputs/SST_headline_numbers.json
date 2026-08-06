@@ -1,0 +1,17 @@
+{
+  "indicator": "01_SST",
+  "warming_rate_C_per_decade": 0.165,
+  "trend_r_squared": 0.02,
+  "trend_p_value": 0.0018,
+  "trend_significant": true,
+  "mean_sst_baseline_1985_2005": 27.46,
+  "mean_sst_recent_2010_2024": 27.88,
+  "cool_season_shift_C": 0.44,
+  "mhw_total_events": 129,
+  "mhw_moderate_events": 128,
+  "mhw_strong_events": 1,
+  "mhw_severe_events": 0,
+  "mhw_extreme_events": 0,
+  "mhw_longest_event_days": 124,
+  "mhw_most_intense_C_above_p90": 1.4
+}
