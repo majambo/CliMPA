@@ -1,7 +1,0 @@
-statistic,value,unit,notes
-TIDE_TREND,1.87,mm/year,Linear trend PSMSL Zanzibar tide gauge 1984-2018
-TIDE_TREND_SE,0.56,mm/year,Standard error on linear trend
-TIDE_TREND_CI_LOW,0.77,mm/year,95% CI lower bound
-TIDE_TREND_CI_HIGH,2.97,mm/year,95% CI upper bound
-SAT_TREND_OVERLAP,3.38,mm/year,Satellite trend over overlap period 1993-2018
-CORRELATION_MONTHLY,0.834,Pearson r,Monthly correlation between tide gauge and satellite (overlap period)

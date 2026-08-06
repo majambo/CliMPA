@@ -1,6 +1,0 @@
-placeholder,value,unit,notes
-SLR_OBSERVED_RATE,3.47,mm/year,"Linear trend, C3S satellite altimetry at MIMP 1993-2023"
-SLR_OBSERVED_RATE_CI,3.04 to 3.9,mm/year,95% confidence interval
-SLR_TOTAL_RISE,107.3,mm,Total rise 1993-2023 (31 years)
-SLR_GLOBAL_MEAN,3.3,mm/year,IPCC AR6 global mean 1993-2018
-SLR_VS_GLOBAL,0.17,mm/year,Local minus global (positive = faster than global)
