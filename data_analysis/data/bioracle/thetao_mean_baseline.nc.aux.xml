@@ -1,0 +1,97 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="latitude#actual_range">{-89.974998,89.974998}</MDI>
+    <MDI key="latitude#axis">Y</MDI>
+    <MDI key="latitude#ioos_category">Location</MDI>
+    <MDI key="latitude#long_name">Latitude</MDI>
+    <MDI key="latitude#reference_datum">geographical coordinates, WGS84 projection</MDI>
+    <MDI key="latitude#standard_name">latitude</MDI>
+    <MDI key="latitude#units">degrees_north</MDI>
+    <MDI key="latitude#valid_max">90</MDI>
+    <MDI key="latitude#valid_min">-90</MDI>
+    <MDI key="latitude#_CoordinateAxisType">Lat</MDI>
+    <MDI key="longitude#actual_range">{-179.97501,179.97501}</MDI>
+    <MDI key="longitude#axis">X</MDI>
+    <MDI key="longitude#ioos_category">Location</MDI>
+    <MDI key="longitude#long_name">Longitude</MDI>
+    <MDI key="longitude#reference_datum">geographical coordinates, WGS84 projection</MDI>
+    <MDI key="longitude#standard_name">longitude</MDI>
+    <MDI key="longitude#units">degrees_east</MDI>
+    <MDI key="longitude#valid_max">180</MDI>
+    <MDI key="longitude#valid_min">-180</MDI>
+    <MDI key="longitude#_CoordinateAxisType">Lon</MDI>
+    <MDI key="NC_GLOBAL#cdm_data_type">Grid</MDI>
+    <MDI key="NC_GLOBAL#comment">Uses attributes recommended by https://cfconventions.org</MDI>
+    <MDI key="NC_GLOBAL#Conventions">CF-1.5</MDI>
+    <MDI key="NC_GLOBAL#creator_name">Bio-Oracle consortium: https://www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#creator_url">https://www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#Easternmost_Easting">179.97501</MDI>
+    <MDI key="NC_GLOBAL#experiment">Baseline</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_max">89.974998</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_min">-89.974998</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.05</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_max">179.97501</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_min">-179.97501</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.05</MDI>
+    <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_GeoTransform">-180 0.05 0 90 0 -0.05</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_inverse_flattening">298.257223563</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_longitude_of_prime_meridian">0</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_long_name">CRS definition</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_name">latitude_longitude</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_semi_major_axis">6378137</MDI>
+    <MDI key="NC_GLOBAL#grid_mapping_spatial_ref">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</MDI>
+    <MDI key="NC_GLOBAL#history">File created: 2021-12-15 08:34:19
+2026-04-15T12:17:21Z (local files)
+2026-04-15T12:17:21Z http://erddap.bio-oracle.org/erddap/griddap/thetao_baseline_2000_2019_depthmax.nc?thetao_mean[(2010-01-01):1:(2010-01-01T00:00:00Z)][(-90.0):1:(90.0)][(-180.0):1:(180.0)]</MDI>
+    <MDI key="NC_GLOBAL#infoUrl">https://www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#institution">Bio-Oracle consortium: https://www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#keywords">average, bio, bio-oracle, consortium, data, depthmax, long, long-term, maximum, minimum, oceantemperature, oracle, oracle.org, range, temperature, term, thetao_ltmax, thetao_ltmin, thetao_max, thetao_mean, thetao_min, thetao_range, time, www.bio, www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#license">The data may be used and redistributed for free but is not intended
+for legal use, since it may contain inaccuracies. Neither the data
+Contributor, ERD, NOAA, nor the United States Government, nor any
+of their employees or contractors, makes any warranty, express or
+implied, including warranties of merchantability and fitness for a
+particular purpose, or assumes any legal liability for the accuracy,
+completeness, or usefulness, of this information.</MDI>
+    <MDI key="NC_GLOBAL#Northernmost_Northing">89.974998</MDI>
+    <MDI key="NC_GLOBAL#references">https://www.bio-oracle.org</MDI>
+    <MDI key="NC_GLOBAL#source">Bio-Oracle version V3.0</MDI>
+    <MDI key="NC_GLOBAL#sourceUrl">(local files)</MDI>
+    <MDI key="NC_GLOBAL#Southernmost_Northing">-89.974998</MDI>
+    <MDI key="NC_GLOBAL#standard_name">sea_water_temperature</MDI>
+    <MDI key="NC_GLOBAL#standard_name_vocabulary">CF Standard Name Table v70</MDI>
+    <MDI key="NC_GLOBAL#summary">Uses attributes recommended by https://cfconventions.org</MDI>
+    <MDI key="NC_GLOBAL#time_coverage_end">2010-01-01T00:00:00Z</MDI>
+    <MDI key="NC_GLOBAL#time_coverage_start">2010-01-01T00:00:00Z</MDI>
+    <MDI key="NC_GLOBAL#title">Bio-Oracle OceanTemperature [depthMax] Baseline 2000-2019.</MDI>
+    <MDI key="NC_GLOBAL#Westernmost_Easting">-179.97501</MDI>
+    <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+    <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+    <MDI key="NETCDF_DIM_time_VALUES">1262304000</MDI>
+    <MDI key="thetao_mean#colorBarMaximum">40</MDI>
+    <MDI key="thetao_mean#colorBarMinimum">-10</MDI>
+    <MDI key="thetao_mean#ioos_category">Temperature</MDI>
+    <MDI key="thetao_mean#long_name">Average OceanTemperature</MDI>
+    <MDI key="thetao_mean#units">degree_C</MDI>
+    <MDI key="thetao_mean#_FillValue">-9999.9</MDI>
+    <MDI key="time#actual_range">{1262304000,1262304000}</MDI>
+    <MDI key="time#axis">T</MDI>
+    <MDI key="time#calendar">gregorian</MDI>
+    <MDI key="time#ioos_category">Time</MDI>
+    <MDI key="time#long_name">Time</MDI>
+    <MDI key="time#standard_name">time</MDI>
+    <MDI key="time#time_origin">01-JAN-1970 00:00:00</MDI>
+    <MDI key="time#units">seconds since 1970-01-01T00:00:00Z</MDI>
+    <MDI key="time#_CoordinateAxisType">Time</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">-2</MDI>
+      <MDI key="STATISTICS_MAXIMUM">30.904003763139</MDI>
+      <MDI key="STATISTICS_MEAN">1.6464433746783</MDI>
+      <MDI key="STATISTICS_STDDEV">3.9580155405025</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
