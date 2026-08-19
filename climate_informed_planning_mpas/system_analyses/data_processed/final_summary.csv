@@ -1,0 +1,9 @@
+metric,value
+Raw nodes,142
+Raw signed causal links,161
+Retained harmonised nodes,32
+Final retained signed links,0
+Nodes represented in all three sources,15
+Links represented in all three sources,0
+Computationally screened unique directed cycles,0
+Curated principal feedback structures,5

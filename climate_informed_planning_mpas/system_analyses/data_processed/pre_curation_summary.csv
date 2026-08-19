@@ -1,0 +1,12 @@
+stage,n
+Raw source-specific nodes,142
+Raw signed causal links,161
+Retained source-node harmonisation records,140
+Unique harmonised nodes,32
+Raw links with both endpoints mapped to retained nodes,156
+Raw links with unmapped/non-retained endpoint(s),5
+Within-node raw relationships,37
+Between-node raw relationships,119
+Candidate harmonised signed links,78
+Harmonised source-target pairs with polarity conflict,10
+Raw links flagged for verification,22

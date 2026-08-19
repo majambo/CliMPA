@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_domain" for="node" attr.name="domain" attr.type="string"/>
+  <key id="v_sources" for="node" attr.name="sources" attr.type="string"/>
+  <key id="v_n_sources" for="node" attr.name="n_sources" attr.type="double"/>
+  <key id="e_polarity" for="edge" attr.name="polarity" attr.type="string"/>
+  <key id="e_link_id" for="edge" attr.name="link_id" attr.type="string"/>
+  <key id="e_sources" for="edge" attr.name="sources" attr.type="string"/>
+  <key id="e_n_sources" for="edge" attr.name="n_sources" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">N01</data>
+      <data key="v_label">Ocean warming / temperature rise</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">N02</data>
+      <data key="v_label">Ocean acidification</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">EXP; PM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">N03</data>
+      <data key="v_label">Sea-level rise</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">EXP; PM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">N04</data>
+      <data key="v_label">Extreme rainfall</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">EXP; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">N05</data>
+      <data key="v_label">Rufiji River discharge / runoff</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">PM</data>
+      <data key="v_n_sources">1</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">N06</data>
+      <data key="v_label">Cyclones, storm surge and wind shifts</data>
+      <data key="v_domain">Climate and ocean drivers</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">N07</data>
+      <data key="v_label">Salinity intrusion / salinity change</data>
+      <data key="v_domain">Coastal hazards and water quality</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">N08</data>
+      <data key="v_label">Sedimentation / turbidity</data>
+      <data key="v_domain">Coastal hazards and water quality</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">N09</data>
+      <data key="v_label">Coastal erosion / beach and shoreline loss</data>
+      <data key="v_domain">Coastal hazards and water quality</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">N10</data>
+      <data key="v_label">Coral reef condition</data>
+      <data key="v_domain">Coastal ecosystem condition</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">N11</data>
+      <data key="v_label">Seagrass condition</data>
+      <data key="v_domain">Coastal ecosystem condition</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">N12</data>
+      <data key="v_label">Mangrove condition</data>
+      <data key="v_domain">Coastal ecosystem condition</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">N13</data>
+      <data key="v_label">Coastal forest condition</data>
+      <data key="v_domain">Coastal ecosystem condition</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">N14</data>
+      <data key="v_label">Fish population / biomass</data>
+      <data key="v_domain">Biodiversity and ecological benefits</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">N15</data>
+      <data key="v_label">Wildlife and charismatic fauna</data>
+      <data key="v_domain">Biodiversity and ecological benefits</data>
+      <data key="v_sources">PM</data>
+      <data key="v_n_sources">1</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">N16</data>
+      <data key="v_label">Seaweed production / yield</data>
+      <data key="v_domain">Livelihoods and well-being</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">N17</data>
+      <data key="v_label">Fish catch / CPUE</data>
+      <data key="v_domain">Livelihoods and well-being</data>
+      <data key="v_sources">EXP; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">N18</data>
+      <data key="v_label">Tourism and cultural attractiveness</data>
+      <data key="v_domain">Livelihoods and well-being</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">N19</data>
+      <data key="v_label">Household income / employment</data>
+      <data key="v_domain">Livelihoods and well-being</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">N20</data>
+      <data key="v_label">Social well-being</data>
+      <data key="v_domain">Livelihoods and well-being</data>
+      <data key="v_sources">EXP</data>
+      <data key="v_n_sources">1</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">N21</data>
+      <data key="v_label">Fishing pressure / effort</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">EXP; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">N22</data>
+      <data key="v_label">Illegal / unregulated fishing</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">N23</data>
+      <data key="v_label">Sand and construction-material extraction</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">N24</data>
+      <data key="v_label">Bait digging / bait extraction</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">N25</data>
+      <data key="v_label">Agricultural / farm expansion</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">N26</data>
+      <data key="v_label">Population growth / immigration</data>
+      <data key="v_domain">Local human pressures</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">N27</data>
+      <data key="v_label">Governance and enforcement effectiveness</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">N28</data>
+      <data key="v_label">Education and awareness</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">COM</data>
+      <data key="v_n_sources">1</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">N29</data>
+      <data key="v_label">Habitat restoration and protection</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">EXP; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">N30</data>
+      <data key="v_label">Seaweed market access and price</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">PM; COM</data>
+      <data key="v_n_sources">2</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">N31</data>
+      <data key="v_label">Alternative livelihood opportunities</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">EXP; PM; COM</data>
+      <data key="v_n_sources">3</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">N32</data>
+      <data key="v_label">Climate resilience / adaptive capacity</data>
+      <data key="v_domain">Governance, responses and resilience</data>
+      <data key="v_sources">EXP</data>
+      <data key="v_n_sources">1</data>
+    </node>
+  </graph>
+</graphml>

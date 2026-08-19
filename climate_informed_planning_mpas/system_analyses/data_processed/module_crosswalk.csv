@@ -1,0 +1,33 @@
+node_id,harmonised_node,domain,sources,n_sources,source_scope,n_raw_terms,example_raw_terms,display_module_id,display_module
+N01,Ocean warming / temperature rise,Climate and ocean drivers,EXP; PM; COM,3,all three sources,4,Atmospheric warming; Ocean warming; Temperature rise,M1,Climate and ocean drivers
+N02,Ocean acidification,Climate and ocean drivers,EXP; PM,2,two sources,3,Aragonite saturation; Ocean acidification,M1,Climate and ocean drivers
+N03,Sea-level rise,Climate and ocean drivers,EXP; PM,2,two sources,3,Sea level rise; Spring tidal shift,M1,Climate and ocean drivers
+N04,Extreme rainfall,Climate and ocean drivers,EXP; COM,2,two sources,2,Heavy rainfall; Rainfall,M1,Climate and ocean drivers
+N05,Rufiji River discharge / runoff,Climate and ocean drivers,PM,1,one source,1,Rufiji river discharge,M1,Climate and ocean drivers
+N06,"Cyclones, storm surge and wind shifts",Climate and ocean drivers,EXP; PM; COM,3,all three sources,8,Changes in wind pattern; Cyclone; Cyclones; Ocean current; Storm surge; Tropical cyclone; Wind; Wind speed,M1,Climate and ocean drivers
+N07,Salinity intrusion / salinity change,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,5,Freshwater intrusion; Ocean salinity; Salt-water intrusion; Seawater salinity,M2,Coastal hazards and water quality
+N08,Sedimentation / turbidity,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,6,Algae blooming; Sediment load; Sedimentation; Sedimentation (local); Turbidity,M2,Coastal hazards and water quality
+N09,Coastal erosion / beach and shoreline loss,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,7,Beaches decline; Coastal erosion; Sand deposition; Shoreline changes; Small islands decline,M2,Coastal hazards and water quality
+N10,Coral reef condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,12,Coral bleaching; Coral cover; Coral cover decline; Coral growth; Coral mortality; Coral reef; Coral reef condition; Fungal diseases,M3,Coastal habitat condition
+N11,Seagrass condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,5,Seagrass cover; Seagrass cover losses; Seagrass loss; Seagrasses condition,M3,Coastal habitat condition
+N12,Mangrove condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,6,Mangrove; Mangrove cover; Mangrove cover decline; Mangrove loss,M3,Coastal habitat condition
+N13,Coastal forest condition,Coastal ecosystem condition,PM; COM,2,two sources,3,Coastal forest cover; Indigenous trees,M3,Coastal habitat condition
+N14,Fish population / biomass,Biodiversity and ecological benefits,EXP; PM; COM,3,all three sources,4,Fish biomass; Fish nurseries; Fish population,M4,Ecosystem and cultural benefits
+N15,Wildlife and charismatic fauna,Biodiversity and ecological benefits,PM,1,one source,5,Birds; Mammals and reptiles; Sea turtles; Whale shark; Wildlife increase,M4,Ecosystem and cultural benefits
+N16,Seaweed production / yield,Livelihoods and well-being,EXP; PM; COM,3,all three sources,9,Decline in seaweed yield; Decline seaweed yields; Loss of seaweed farms; Number of farmers; Seaweed bleaching; Seaweed disease; Seaweed farming; Seaweed production,M4,Ecosystem and cultural benefits
+N17,Fish catch / CPUE,Livelihoods and well-being,EXP; COM,2,two sources,2,CPUE; Fish catch,M4,Ecosystem and cultural benefits
+N18,Tourism and cultural attractiveness,Livelihoods and well-being,EXP; PM; COM,3,all three sources,7,"Beaches and ruins; Cultural activities; Ruins; Stability, advertisement and attraction; Tourism",M4,Ecosystem and cultural benefits
+N19,Household income / employment,Livelihoods and well-being,PM; COM,2,two sources,3,Economic motivation; Employment opportunities; Household income,M5,Livelihoods and well-being
+N20,Social well-being,Livelihoods and well-being,EXP,1,one source,1,Social well-being,M5,Livelihoods and well-being
+N21,Fishing pressure / effort,Local human pressures,EXP; COM,2,two sources,2,Fishing effort; Fishing pressure,M6,Locally mediated pressures
+N22,Illegal / unregulated fishing,Local human pressures,PM; COM,2,two sources,5,Demand for illegally caught fish; Foreign fishers; Foreign fishers unaware of park regulations; Illegal fishing practice; Illegal fishing practices,M6,Locally mediated pressures
+N23,Sand and construction-material extraction,Local human pressures,PM; COM,2,two sources,3,Coastal sand extraction; Construction material extraction,M6,Locally mediated pressures
+N24,Bait digging / bait extraction,Local human pressures,EXP; PM; COM,3,all three sources,3,Bait digging; Bait extraction,M6,Locally mediated pressures
+N25,Agricultural / farm expansion,Local human pressures,EXP; PM; COM,3,all three sources,4,Decrease in farming space; Farm expansion; Farming activities; Rice farming,M6,Locally mediated pressures
+N26,Population growth / immigration,Local human pressures,EXP; PM; COM,3,all three sources,4,Human population; Human population growth; Immigration,M6,Locally mediated pressures
+N27,Governance and enforcement effectiveness,"Governance, responses and resilience",PM; COM,2,two sources,7,Bribery; Crimes and moral degradation; Effective conservation; Effective enforcement; Ineffective MCS; Overlap between VLC and village leaders; Political interference,M7,Governance and conservation responses
+N28,Education and awareness,"Governance, responses and resilience",COM,1,one source,1,Education and awareness campaign,M7,Governance and conservation responses
+N29,Habitat restoration and protection,"Governance, responses and resilience",EXP; COM,2,two sources,5,Construction of beach barriers; Coral restoration; Establish protected forest; Mangrove restoration; Seagrass restoration,M7,Governance and conservation responses
+N30,Seaweed market access and price,"Governance, responses and resilience",PM; COM,2,two sources,3,Lack of seaweed market; Legal framework and market; Low seaweed price,M8,Enabling livelihood opportunities
+N31,Alternative livelihood opportunities,"Governance, responses and resilience",EXP; PM; COM,3,all three sources,4,Beekeeping; Sea cucumber farming; SME,M8,Enabling livelihood opportunities
+N32,Climate resilience / adaptive capacity,"Governance, responses and resilience",EXP,1,one source,3,Climate resilience; Exposure; Sensitivity,M9,Climate resilience

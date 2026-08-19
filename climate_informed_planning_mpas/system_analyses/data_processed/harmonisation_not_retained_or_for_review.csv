@@ -1,0 +1,3 @@
+source,source_description,raw_node_id,raw_label,raw_domain_style,harmonised_node_id,harmonised_node,integrated_domain,mapping_status,mapping_note
+EXP,expert-derived generic CLD,EX32,Cumulative pressure,pressure,EXCLUDED,Not retained in integrated register,Not retained,not_retained_or_requires_review,Context-specific or ambiguous term not retained in the present integrated 32-node register; review if a finer-resolution model is required.
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM49,Faeces of bat,pressure,EXCLUDED,Not retained in integrated register,Not retained,not_retained_or_requires_review,Context-specific or ambiguous term not retained in the present integrated 32-node register; review if a finer-resolution model is required.

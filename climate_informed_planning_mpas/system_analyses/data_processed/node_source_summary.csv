@@ -1,0 +1,22 @@
+domain,sources,n_sources,source_scope,n_nodes
+Biodiversity and ecological benefits,EXP; PM; COM,3,all three sources,1
+Biodiversity and ecological benefits,PM,1,one source,1
+Climate and ocean drivers,EXP; PM; COM,3,all three sources,2
+Climate and ocean drivers,EXP; COM,2,two sources,1
+Climate and ocean drivers,EXP; PM,2,two sources,2
+Climate and ocean drivers,PM,1,one source,1
+Coastal ecosystem condition,EXP; PM; COM,3,all three sources,3
+Coastal ecosystem condition,PM; COM,2,two sources,1
+Coastal hazards and water quality,EXP; PM; COM,3,all three sources,3
+"Governance, responses and resilience",EXP; PM; COM,3,all three sources,1
+"Governance, responses and resilience",EXP; COM,2,two sources,1
+"Governance, responses and resilience",PM; COM,2,two sources,2
+"Governance, responses and resilience",COM,1,one source,1
+"Governance, responses and resilience",EXP,1,one source,1
+Livelihoods and well-being,EXP; PM; COM,3,all three sources,2
+Livelihoods and well-being,EXP; COM,2,two sources,1
+Livelihoods and well-being,PM; COM,2,two sources,1
+Livelihoods and well-being,EXP,1,one source,1
+Local human pressures,EXP; PM; COM,3,all three sources,3
+Local human pressures,EXP; COM,2,two sources,1
+Local human pressures,PM; COM,2,two sources,2

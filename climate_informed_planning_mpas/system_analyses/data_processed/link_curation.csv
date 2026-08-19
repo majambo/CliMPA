@@ -1,0 +1,79 @@
+candidate_link_id,from_node_id,from_node,to_node_id,to_node,candidate_polarity,sources,n_sources,n_raw_links,supporting_raw_link_ids,transcription_status,polarity_conflict,review_priority,review_status,final_polarity,review_reason,evidence_status
+CL001,N01,Ocean warming / temperature rise,N03,Sea-level rise,+,PM,1,1,PME03,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL002,N01,Ocean warming / temperature rise,N10,Coral reef condition,+,EXP; PM; COM,3,3,COE01; EXE04; PME02,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL003,N01,Ocean warming / temperature rise,N11,Seagrass condition,+,EXP,1,1,EXE07,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL004,N01,Ocean warming / temperature rise,N12,Mangrove condition,+,EXP,1,2,EXE08; EXE09,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL005,N02,Ocean acidification,N10,Coral reef condition,+,EXP; PM,2,2,EXE02; PME13,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL006,N03,Sea-level rise,N07,Salinity intrusion / salinity change,+,EXP,1,1,EXE13,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL007,N03,Sea-level rise,N09,Coastal erosion / beach and shoreline loss,+,EXP; PM,2,2,EXE12; PME05,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL008,N03,Sea-level rise,N12,Mangrove condition,+,PM,1,1,PME06,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL009,N04,Extreme rainfall,N07,Salinity intrusion / salinity change,+,EXP,1,1,EXE11,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL010,N04,Extreme rainfall,N08,Sedimentation / turbidity,+,EXP; COM,2,2,COE11; EXE10,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL011,N05,Rufiji River discharge / runoff,N08,Sedimentation / turbidity,+,PM,1,1,PME47,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL012,N06,"Cyclones, storm surge and wind shifts",N07,Salinity intrusion / salinity change,+,EXP,1,1,EXE17,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL013,N06,"Cyclones, storm surge and wind shifts",N09,Coastal erosion / beach and shoreline loss,+,EXP; PM; COM,3,6,COE09; EXE16; EXE18; PME07; PME08; PME09,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL014,N06,"Cyclones, storm surge and wind shifts",N10,Coral reef condition,-,COM,1,1,COE10,verify,FALSE,high: source transcription requires verification,,-,,requires_review
+CL015,N06,"Cyclones, storm surge and wind shifts",N11,Seagrass condition,+,COM,1,1,COE54,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL016,N06,"Cyclones, storm surge and wind shifts",N12,Mangrove condition,+,PM,1,1,PME10,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL017,N06,"Cyclones, storm surge and wind shifts",N13,Coastal forest condition,-,PM,1,1,PME01,supported,FALSE,moderate: single-source relationship,,-,,supported_in_transcribed_sources
+CL018,N06,"Cyclones, storm surge and wind shifts",N16,Seaweed production / yield,+,PM; COM,2,2,COE08; PME11,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL019,N07,Salinity intrusion / salinity change,N16,Seaweed production / yield,+,PM; COM,2,3,COE14; COE15; PME12,supported; verify,TRUE,high: polarity conflict,,+,,requires_review
+CL020,N07,Salinity intrusion / salinity change,N16,Seaweed production / yield,-,EXP,1,1,EXE24,verify,TRUE,high: polarity conflict,,-,,requires_review
+CL021,N08,Sedimentation / turbidity,N10,Coral reef condition,+,PM,1,1,PME15,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL022,N08,Sedimentation / turbidity,N10,Coral reef condition,-,EXP; COM,2,2,COE12; EXE21,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL023,N08,Sedimentation / turbidity,N11,Seagrass condition,+,COM,1,1,COE13,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL024,N08,Sedimentation / turbidity,N11,Seagrass condition,-,EXP; PM,2,2,EXE22; PME14,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL025,N08,Sedimentation / turbidity,N16,Seaweed production / yield,+,EXP; PM,2,2,EXE23; PME21,supported; verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL026,N09,Coastal erosion / beach and shoreline loss,N18,Tourism and cultural attractiveness,+,PM,1,1,PME35,verify,TRUE,high: polarity conflict,,+,,requires_review
+CL027,N09,Coastal erosion / beach and shoreline loss,N18,Tourism and cultural attractiveness,-,PM; COM,2,2,COE30; PME34,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL028,N10,Coral reef condition,N14,Fish population / biomass,+,COM,1,1,COE05,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL029,N10,Coral reef condition,N14,Fish population / biomass,-,PM,1,1,PME23,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL030,N11,Seagrass condition,N14,Fish population / biomass,+,EXP; PM; COM,3,3,COE20; EXE28; PME24,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL031,N11,Seagrass condition,N14,Fish population / biomass,-,COM,1,1,COE19,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL032,N12,Mangrove condition,N09,Coastal erosion / beach and shoreline loss,+,PM; COM,2,2,COE26; PME31,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL033,N12,Mangrove condition,N14,Fish population / biomass,+,EXP; PM; COM,3,3,COE22; EXE29; PME25,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL034,N12,Mangrove condition,N14,Fish population / biomass,-,COM,1,1,COE21,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL035,N12,Mangrove condition,N15,Wildlife and charismatic fauna,-,PM,1,2,PME32; PME33,verify,FALSE,high: source transcription requires verification,,-,,requires_review
+CL036,N13,Coastal forest condition,N09,Coastal erosion / beach and shoreline loss,-,PM; COM,2,2,COE50; PME16,supported,FALSE,standard,,-,,supported_in_transcribed_sources
+CL037,N14,Fish population / biomass,N17,Fish catch / CPUE,+,EXP; COM,2,2,COE06; EXE32,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL038,N15,Wildlife and charismatic fauna,N18,Tourism and cultural attractiveness,+,PM,1,3,PME37; PME38; PME39,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL039,N16,Seaweed production / yield,N19,Household income / employment,-,COM,1,1,COE18,supported,FALSE,moderate: single-source relationship,,-,,supported_in_transcribed_sources
+CL040,N16,Seaweed production / yield,N20,Social well-being,+,EXP,1,1,EXE34,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL041,N17,Fish catch / CPUE,N19,Household income / employment,+,COM,1,1,COE07,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL042,N17,Fish catch / CPUE,N20,Social well-being,+,EXP,1,1,EXE33,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL043,N18,Tourism and cultural attractiveness,N19,Household income / employment,+,PM; COM,2,2,COE32; PME42,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL044,N18,Tourism and cultural attractiveness,N20,Social well-being,+,EXP,1,1,EXE35,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL045,N18,Tourism and cultural attractiveness,N31,Alternative livelihood opportunities,+,PM,1,1,PME43,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL046,N19,Household income / employment,N21,Fishing pressure / effort,+,COM,1,1,COE44,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL047,N19,Household income / employment,N26,Population growth / immigration,+,PM,1,1,PME50,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL048,N20,Social well-being,N32,Climate resilience / adaptive capacity,+,EXP,1,1,EXE50,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL049,N21,Fishing pressure / effort,N14,Fish population / biomass,-,EXP; COM,2,2,COE36; EXE31,supported,FALSE,standard,,-,,supported_in_transcribed_sources
+CL050,N22,Illegal / unregulated fishing,N10,Coral reef condition,+,PM,1,1,PME27,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL051,N22,Illegal / unregulated fishing,N10,Coral reef condition,-,COM,1,1,COE55,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL052,N22,Illegal / unregulated fishing,N14,Fish population / biomass,-,PM; COM,2,2,COE35; PME28,supported,FALSE,standard,,-,,supported_in_transcribed_sources
+CL053,N22,Illegal / unregulated fishing,N21,Fishing pressure / effort,+,COM,1,1,COE43,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL054,N23,Sand and construction-material extraction,N09,Coastal erosion / beach and shoreline loss,+,COM,1,1,COE27,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL055,N23,Sand and construction-material extraction,N12,Mangrove condition,+,PM; COM,2,3,COE23; COE25; PME30,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL056,N24,Bait digging / bait extraction,N12,Mangrove condition,+,PM; COM,2,2,COE24; PME29,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL057,N24,Bait digging / bait extraction,N12,Mangrove condition,-,EXP,1,1,EXE44,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL058,N25,Agricultural / farm expansion,N08,Sedimentation / turbidity,+,EXP,1,1,EXE46,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL059,N25,Agricultural / farm expansion,N13,Coastal forest condition,-,PM; COM,2,2,COE48; PME17,supported,FALSE,standard,,-,,supported_in_transcribed_sources
+CL060,N25,Agricultural / farm expansion,N16,Seaweed production / yield,-,PM,1,1,PME54,verify,FALSE,high: source transcription requires verification,,-,,requires_review
+CL061,N26,Population growth / immigration,N21,Fishing pressure / effort,+,EXP; COM,2,2,COE46; EXE45,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL062,N26,Population growth / immigration,N23,Sand and construction-material extraction,+,PM,1,1,PME49,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL063,N26,Population growth / immigration,N25,Agricultural / farm expansion,+,PM; COM,2,2,COE47; PME48,supported,FALSE,standard,,+,,supported_in_transcribed_sources
+CL064,N27,Governance and enforcement effectiveness,N12,Mangrove condition,+,PM,1,1,PME44,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL065,N27,Governance and enforcement effectiveness,N15,Wildlife and charismatic fauna,+,PM,1,2,PME45; PME46,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL066,N27,Governance and enforcement effectiveness,N22,Illegal / unregulated fishing,+,PM; COM,2,2,COE39; PME26,supported,TRUE,high: polarity conflict,,+,,supported_in_transcribed_sources
+CL067,N27,Governance and enforcement effectiveness,N22,Illegal / unregulated fishing,-,COM,1,1,COE42,supported,TRUE,high: polarity conflict,,-,,supported_in_transcribed_sources
+CL068,N28,Education and awareness,N22,Illegal / unregulated fishing,-,COM,1,1,COE41,supported,FALSE,moderate: single-source relationship,,-,,supported_in_transcribed_sources
+CL069,N29,Habitat restoration and protection,N09,Coastal erosion / beach and shoreline loss,-,COM,1,1,COE29,verify,FALSE,high: source transcription requires verification,,-,,requires_review
+CL070,N29,Habitat restoration and protection,N10,Coral reef condition,+,EXP,1,1,EXE40,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL071,N29,Habitat restoration and protection,N11,Seagrass condition,+,EXP,1,1,EXE39,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL072,N29,Habitat restoration and protection,N12,Mangrove condition,+,EXP,1,1,EXE38,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL073,N29,Habitat restoration and protection,N13,Coastal forest condition,+,COM,1,1,COE49,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL074,N29,Habitat restoration and protection,N20,Social well-being,+,EXP,1,1,EXE51,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL075,N30,Seaweed market access and price,N16,Seaweed production / yield,+,PM,1,1,PME52,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources
+CL076,N30,Seaweed market access and price,N19,Household income / employment,-,COM,1,2,COE33; COE34,supported,FALSE,moderate: single-source relationship,,-,,supported_in_transcribed_sources
+CL077,N31,Alternative livelihood opportunities,N19,Household income / employment,+,COM,1,1,COE53,verify,FALSE,high: source transcription requires verification,,+,,requires_review
+CL078,N31,Alternative livelihood opportunities,N20,Social well-being,+,EXP,1,2,EXE36; EXE37,supported,FALSE,moderate: single-source relationship,,+,,supported_in_transcribed_sources

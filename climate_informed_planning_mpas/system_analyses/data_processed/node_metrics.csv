@@ -1,0 +1,33 @@
+node_id,indegree,outdegree,total_degree,betweenness,harmonised_node,domain,sources,n_sources,source_scope,n_raw_terms,example_raw_terms
+N01,0,0,0,0,Ocean warming / temperature rise,Climate and ocean drivers,EXP; PM; COM,3,all three sources,4,Atmospheric warming; Ocean warming; Temperature rise
+N02,0,0,0,0,Ocean acidification,Climate and ocean drivers,EXP; PM,2,two sources,3,Aragonite saturation; Ocean acidification
+N03,0,0,0,0,Sea-level rise,Climate and ocean drivers,EXP; PM,2,two sources,3,Sea level rise; Spring tidal shift
+N04,0,0,0,0,Extreme rainfall,Climate and ocean drivers,EXP; COM,2,two sources,2,Heavy rainfall; Rainfall
+N05,0,0,0,0,Rufiji River discharge / runoff,Climate and ocean drivers,PM,1,one source,1,Rufiji river discharge
+N06,0,0,0,0,"Cyclones, storm surge and wind shifts",Climate and ocean drivers,EXP; PM; COM,3,all three sources,8,Changes in wind pattern; Cyclone; Cyclones; Ocean current; Storm surge; Tropical cyclone; Wind; Wind speed
+N07,0,0,0,0,Salinity intrusion / salinity change,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,5,Freshwater intrusion; Ocean salinity; Salt-water intrusion; Seawater salinity
+N08,0,0,0,0,Sedimentation / turbidity,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,6,Algae blooming; Sediment load; Sedimentation; Sedimentation (local); Turbidity
+N09,0,0,0,0,Coastal erosion / beach and shoreline loss,Coastal hazards and water quality,EXP; PM; COM,3,all three sources,7,Beaches decline; Coastal erosion; Sand deposition; Shoreline changes; Small islands decline
+N10,0,0,0,0,Coral reef condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,12,Coral bleaching; Coral cover; Coral cover decline; Coral growth; Coral mortality; Coral reef; Coral reef condition; Fungal diseases
+N11,0,0,0,0,Seagrass condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,5,Seagrass cover; Seagrass cover losses; Seagrass loss; Seagrasses condition
+N12,0,0,0,0,Mangrove condition,Coastal ecosystem condition,EXP; PM; COM,3,all three sources,6,Mangrove; Mangrove cover; Mangrove cover decline; Mangrove loss
+N13,0,0,0,0,Coastal forest condition,Coastal ecosystem condition,PM; COM,2,two sources,3,Coastal forest cover; Indigenous trees
+N14,0,0,0,0,Fish population / biomass,Biodiversity and ecological benefits,EXP; PM; COM,3,all three sources,4,Fish biomass; Fish nurseries; Fish population
+N15,0,0,0,0,Wildlife and charismatic fauna,Biodiversity and ecological benefits,PM,1,one source,5,Birds; Mammals and reptiles; Sea turtles; Whale shark; Wildlife increase
+N16,0,0,0,0,Seaweed production / yield,Livelihoods and well-being,EXP; PM; COM,3,all three sources,9,Decline in seaweed yield; Decline seaweed yields; Loss of seaweed farms; Number of farmers; Seaweed bleaching; Seaweed disease; Seaweed farming; Seaweed production
+N17,0,0,0,0,Fish catch / CPUE,Livelihoods and well-being,EXP; COM,2,two sources,2,CPUE; Fish catch
+N18,0,0,0,0,Tourism and cultural attractiveness,Livelihoods and well-being,EXP; PM; COM,3,all three sources,7,"Beaches and ruins; Cultural activities; Ruins; Stability, advertisement and attraction; Tourism"
+N19,0,0,0,0,Household income / employment,Livelihoods and well-being,PM; COM,2,two sources,3,Economic motivation; Employment opportunities; Household income
+N20,0,0,0,0,Social well-being,Livelihoods and well-being,EXP,1,one source,1,Social well-being
+N21,0,0,0,0,Fishing pressure / effort,Local human pressures,EXP; COM,2,two sources,2,Fishing effort; Fishing pressure
+N22,0,0,0,0,Illegal / unregulated fishing,Local human pressures,PM; COM,2,two sources,5,Demand for illegally caught fish; Foreign fishers; Foreign fishers unaware of park regulations; Illegal fishing practice; Illegal fishing practices
+N23,0,0,0,0,Sand and construction-material extraction,Local human pressures,PM; COM,2,two sources,3,Coastal sand extraction; Construction material extraction
+N24,0,0,0,0,Bait digging / bait extraction,Local human pressures,EXP; PM; COM,3,all three sources,3,Bait digging; Bait extraction
+N25,0,0,0,0,Agricultural / farm expansion,Local human pressures,EXP; PM; COM,3,all three sources,4,Decrease in farming space; Farm expansion; Farming activities; Rice farming
+N26,0,0,0,0,Population growth / immigration,Local human pressures,EXP; PM; COM,3,all three sources,4,Human population; Human population growth; Immigration
+N27,0,0,0,0,Governance and enforcement effectiveness,"Governance, responses and resilience",PM; COM,2,two sources,7,Bribery; Crimes and moral degradation; Effective conservation; Effective enforcement; Ineffective MCS; Overlap between VLC and village leaders; Political interference
+N28,0,0,0,0,Education and awareness,"Governance, responses and resilience",COM,1,one source,1,Education and awareness campaign
+N29,0,0,0,0,Habitat restoration and protection,"Governance, responses and resilience",EXP; COM,2,two sources,5,Construction of beach barriers; Coral restoration; Establish protected forest; Mangrove restoration; Seagrass restoration
+N30,0,0,0,0,Seaweed market access and price,"Governance, responses and resilience",PM; COM,2,two sources,3,Lack of seaweed market; Legal framework and market; Low seaweed price
+N31,0,0,0,0,Alternative livelihood opportunities,"Governance, responses and resilience",EXP; PM; COM,3,all three sources,4,Beekeeping; Sea cucumber farming; SME
+N32,0,0,0,0,Climate resilience / adaptive capacity,"Governance, responses and resilience",EXP,1,one source,3,Climate resilience; Exposure; Sensitivity

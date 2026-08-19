@@ -1,0 +1,11 @@
+from_node_id,from_node,to_node_id,to_node,n_polarities,polarities,candidate_link_ids
+N07,Salinity intrusion / salinity change,N16,Seaweed production / yield,2,-; +,CL019; CL020
+N08,Sedimentation / turbidity,N10,Coral reef condition,2,-; +,CL021; CL022
+N08,Sedimentation / turbidity,N11,Seagrass condition,2,-; +,CL023; CL024
+N09,Coastal erosion / beach and shoreline loss,N18,Tourism and cultural attractiveness,2,-; +,CL026; CL027
+N10,Coral reef condition,N14,Fish population / biomass,2,-; +,CL028; CL029
+N11,Seagrass condition,N14,Fish population / biomass,2,-; +,CL030; CL031
+N12,Mangrove condition,N14,Fish population / biomass,2,-; +,CL033; CL034
+N22,Illegal / unregulated fishing,N10,Coral reef condition,2,-; +,CL050; CL051
+N24,Bait digging / bait extraction,N12,Mangrove condition,2,-; +,CL056; CL057
+N27,Governance and enforcement effectiveness,N22,Illegal / unregulated fishing,2,-; +,CL066; CL067
