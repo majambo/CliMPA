@@ -1,0 +1,36 @@
+Global
+"Category","Median","10th-90th Percentile"
+"Category 5","17.50%","3.70% to 34.40%"
+"Category 4","14.10%","3.40% to 27.60%"
+"Category 3","9.70%","1.00% to 24.80%"
+"Category 2","6.80%","1.60% to 22.20%"
+"Category 1","5.60%","1.50% to 20.60%"
+"Tropical Storm","6.90%","1.00% to 14.50%"
+
+Indian Ocean
+"Category","Median","10th-90th Percentile"
+"Category 5","-0.40%","-9.70% to 24.40%"
+"Category 4","-3.20%","-12.10% to 19.60%"
+"Category 3","-3.80%","-13.30% to 18.10%"
+"Category 2","-3.90%","-13.70% to 16.10%"
+"Category 1","-1.60%","-11.40% to 16.30%"
+"Tropical Storm","2.40%","-4.90% to 14.40%"
+
+Tanzanian Exclusive Economic Zone
+"Category","Median","10th-90th Percentile"
+"Category 5","-1.90%","-13.80% to 27.60%"
+"Category 4","2.20%","-20.30% to 32.00%"
+"Category 3","-10.60%","-23.80% to 36.40%"
+"Category 2","-8.30%","-16.80% to 31.10%"
+"Category 1","-11.10%","-15.30% to 28.00%"
+"Tropical Storm","-5.70%","-14.90% to 29.30%"
+
+Tanzania (landfalls)
+"Category","Median","10th-90th Percentile"
+"Category 5","5.20%","-27.40% to 64.80%"
+"Category 4","1.50%","-22.70% to 31.80%"
+"Category 3","-7.80%","-20.70% to 23.40%"
+"Category 2","-5.00%","-15.60% to 29.80%"
+"Category 1","-6.00%","-13.70% to 35.40%"
+"Tropical Storm","-6.20%","-21.80% to 41.90%"
+
