@@ -1,143 +1,143 @@
-source,source_description,raw_node_id,raw_label,raw_domain_style,raw_x,raw_y,transcription_note
-EXP,expert-derived generic CLD,EX01,Ocean acidification,driver,1.8,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX02,Ocean warming,driver,7.0,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX03,Atmospheric warming,driver,12.2,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX04,Rainfall,driver,17.4,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX05,Sea level rise,driver,22.6,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX06,Tropical cyclone,driver,27.8,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX07,Wind,driver,33.0,17.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX08,Aragonite saturation,hazard,1.8,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX09,Coral bleaching,pressure,7.0,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX10,Seagrass loss,pressure,12.2,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX11,Mangrove loss,pressure,17.4,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX12,Shoreline changes,hazard,22.6,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX13,Storm surge,hazard,27.8,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX14,Ocean salinity,hazard,33.0,15.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX15,Coral mortality,pressure,7.0,12.6,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX16,Sedimentation,hazard,12.2,12.6,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX17,Salt-water intrusion,hazard,17.4,12.6,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX18,Coastal erosion,hazard,22.6,12.6,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX19,Turbidity,hazard,27.8,12.6,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX20,Coral growth,habitat,1.8,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX21,Coral cover,habitat,7.0,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX22,Seagrass cover,habitat,12.2,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX23,Mangrove cover,habitat,17.4,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX24,Seaweed disease,pressure,22.6,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX25,Seaweed farming,livelihood,27.8,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX26,Rice farming,pressure,33.0,10.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX27,Fish nurseries,benefit,12.2,7.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX28,Fishing effort,pressure,17.4,7.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX29,Seaweed production,livelihood,22.6,7.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX30,Mangrove restoration,governance,27.8,7.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX31,Tourism,livelihood,33.0,7.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX32,Cumulative pressure,pressure,7.0,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX33,Fish biomass,benefit,12.2,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX34,CPUE,benefit,17.4,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX35,Social well-being,outcome,22.6,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX36,Beekeeping,livelihood,27.8,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX37,Sea cucumber farming,livelihood,33.0,4.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX38,Exposure,hazard,7.0,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX39,Coral restoration,governance,12.2,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX40,Sensitivity,hazard,17.4,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX41,Seagrass restoration,governance,22.6,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX42,Bait digging,pressure,27.8,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX43,Human population,driver,33.0,2.2,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-EXP,expert-derived generic CLD,EX44,Climate resilience,outcome,17.4,-0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM01,Wind speed,driver,1.7,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM02,Temperature rise,driver,9.0,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM03,Sea level rise,driver,15.3,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM04,Changes in wind pattern,driver,21.8,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM05,Cyclones,driver,27.8,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM06,Ocean salinity,driver,5.4,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM07,Ocean acidification,driver,10.7,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM08,Spring tidal shift,hazard,16.5,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM09,Coastal erosion,hazard,22.1,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM10,Sand deposition,hazard,27.8,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM11,Sedimentation,hazard,1.8,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM12,Coastal forest cover,habitat,6.4,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM13,Seagrass cover,habitat,11.1,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM14,Mangrove cover decline,pressure,17.2,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM15,Small islands decline,hazard,22.5,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM16,Beaches and ruins,benefit,28.0,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM17,Farming activities,pressure,1.8,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM18,Indigenous trees,habitat,6.4,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM19,Coral cover decline,pressure,11.1,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM20,Mangrove,habitat,17.2,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM21,Mammals and reptiles,benefit,22.5,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM22,Tourism,livelihood,28.0,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM23,Political interference,governance,1.8,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM24,Illegal fishing practice,pressure,6.4,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM25,Coral bleaching,pressure,11.1,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM26,Bait extraction,pressure,17.2,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM27,Wildlife increase,benefit,22.5,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM28,Employment opportunities,livelihood,28.0,8.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM29,Fungal diseases,pressure,1.8,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM30,Coral reef,habitat,6.4,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM31,Fish population,benefit,11.1,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM32,Construction material extraction,pressure,17.2,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM33,Birds,benefit,22.5,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM34,SME,livelihood,28.0,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM35,Seaweed farming,livelihood,1.8,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM36,Decline in seaweed yield,pressure,6.4,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM37,Algae blooming,pressure,11.1,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM38,Effective conservation,governance,17.2,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM39,Cultural activities,benefit,22.5,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM40,"Stability, advertisement and attraction",livelihood,28.0,2.8,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM41,Number of farmers,livelihood,1.8,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM42,Legal framework and market,governance,6.4,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM43,Decrease in farming space,pressure,11.1,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM44,Sea turtles,benefit,17.2,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM45,Whale shark,benefit,22.5,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM46,Rufiji river discharge,driver,28.0,0.1,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM47,Human population growth,driver,31.9,15.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM48,Immigration,livelihood,31.9,13.3,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM49,Faeces of bat,pressure,31.9,10.7,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM50,Sedimentation (local),hazard,31.9,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO01,Temperature rise,driver,1.9,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO02,Cyclone,driver,7.0,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO03,Heavy rainfall,driver,12.1,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO04,Seawater salinity,driver,17.2,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO05,Freshwater intrusion,hazard,22.3,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO06,Coastal erosion,hazard,27.4,18.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO07,Coral bleaching,pressure,1.9,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO08,Loss of seaweed farms,pressure,7.0,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO09,Sediment load,hazard,12.1,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO10,Mangrove loss,pressure,17.2,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO11,Coastal sand extraction,pressure,22.3,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO12,Beaches decline,pressure,27.4,15.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO13,Coral mortality,pressure,1.9,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO14,Seagrass cover losses,pressure,7.0,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO15,Coastal forest cover,habitat,12.1,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO16,Mangrove cover,habitat,17.2,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO17,Bait digging,pressure,22.3,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO18,Establish protected forest,governance,27.4,13.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO19,Coral cover,habitat,1.9,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO20,Fish population,benefit,7.0,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO21,Seaweed bleaching,pressure,12.1,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO22,Decline seaweed yields,pressure,17.2,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO23,Construction material extraction,pressure,22.3,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO24,Construction of beach barriers,governance,27.4,10.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO25,Coral reef condition,habitat,1.9,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO26,Fish catch,livelihood,7.0,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO27,Seagrasses condition,habitat,12.1,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO28,Household income,livelihood,17.2,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO29,Farm expansion,pressure,22.3,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO30,Ruins,benefit,27.4,8.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO31,Education and awareness campaign,governance,1.9,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO32,Illegal fishing practices,pressure,7.0,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO33,Economic motivation,livelihood,12.1,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO34,Fishing pressure,pressure,17.2,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO35,Human population growth,driver,22.3,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO36,Tourism,livelihood,27.4,5.5,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO37,Bribery,governance,1.9,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO38,Ineffective MCS,governance,7.0,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO39,Foreign fishers unaware of park regulations,governance,12.1,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO40,Foreign fishers,pressure,17.2,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO41,Effective enforcement,governance,22.3,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO42,Beekeeping,livelihood,27.4,3.0,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO43,Ocean current,driver,1.9,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO44,Demand for illegally caught fish,livelihood,7.0,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO45,Crimes and moral degradation,governance,12.1,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO46,Overlap between VLC and village leaders,governance,17.2,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO47,Lack of seaweed market,livelihood,22.3,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
-COM,community participatory CLD (Figure 2; confirmed attribution),CO48,Low seaweed price,livelihood,27.4,0.4,Node transcribed from source-specific CLD redraw based on the supplied raster diagram.
+source,source_description,raw_node_id,raw_label,raw_domain_style
+EXP,expert-derived generic CLD,EX01,Ocean acidification,driver
+EXP,expert-derived generic CLD,EX02,Ocean warming,driver
+EXP,expert-derived generic CLD,EX03,Atmospheric warming,driver
+EXP,expert-derived generic CLD,EX04,Rainfall,driver
+EXP,expert-derived generic CLD,EX05,Sea level rise,driver
+EXP,expert-derived generic CLD,EX06,Tropical cyclone,driver
+EXP,expert-derived generic CLD,EX07,Wind,driver
+EXP,expert-derived generic CLD,EX08,Aragonite saturation,hazard
+EXP,expert-derived generic CLD,EX09,Coral bleaching,pressure
+EXP,expert-derived generic CLD,EX10,Seagrass loss,pressure
+EXP,expert-derived generic CLD,EX11,Mangrove loss,pressure
+EXP,expert-derived generic CLD,EX12,Shoreline changes,hazard
+EXP,expert-derived generic CLD,EX13,Storm surge,hazard
+EXP,expert-derived generic CLD,EX14,Ocean salinity,hazard
+EXP,expert-derived generic CLD,EX15,Coral mortality,pressure
+EXP,expert-derived generic CLD,EX16,Sedimentation,hazard
+EXP,expert-derived generic CLD,EX17,Salt-water intrusion,hazard
+EXP,expert-derived generic CLD,EX18,Coastal erosion,hazard
+EXP,expert-derived generic CLD,EX19,Turbidity,hazard
+EXP,expert-derived generic CLD,EX20,Coral growth,habitat
+EXP,expert-derived generic CLD,EX21,Coral cover,habitat
+EXP,expert-derived generic CLD,EX22,Seagrass cover,habitat
+EXP,expert-derived generic CLD,EX23,Mangrove cover,habitat
+EXP,expert-derived generic CLD,EX24,Seaweed disease,pressure
+EXP,expert-derived generic CLD,EX25,Seaweed farming,livelihood
+EXP,expert-derived generic CLD,EX26,Rice farming,pressure
+EXP,expert-derived generic CLD,EX27,Fish nurseries,benefit
+EXP,expert-derived generic CLD,EX28,Fishing effort,pressure
+EXP,expert-derived generic CLD,EX29,Seaweed production,livelihood
+EXP,expert-derived generic CLD,EX30,Mangrove restoration,governance
+EXP,expert-derived generic CLD,EX31,Tourism,livelihood
+EXP,expert-derived generic CLD,EX32,Cumulative pressure,pressure
+EXP,expert-derived generic CLD,EX33,Fish biomass,benefit
+EXP,expert-derived generic CLD,EX34,CPUE,benefit
+EXP,expert-derived generic CLD,EX35,Social well-being,outcome
+EXP,expert-derived generic CLD,EX36,Beekeeping,livelihood
+EXP,expert-derived generic CLD,EX37,Sea cucumber farming,livelihood
+EXP,expert-derived generic CLD,EX38,Exposure,hazard
+EXP,expert-derived generic CLD,EX39,Coral restoration,governance
+EXP,expert-derived generic CLD,EX40,Sensitivity,hazard
+EXP,expert-derived generic CLD,EX41,Seagrass restoration,governance
+EXP,expert-derived generic CLD,EX42,Bait digging,pressure
+EXP,expert-derived generic CLD,EX43,Human population,driver
+EXP,expert-derived generic CLD,EX44,Climate resilience,outcome
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM01,Wind speed,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM02,Temperature rise,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM03,Sea level rise,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM04,Changes in wind pattern,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM05,Cyclones,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM06,Ocean salinity,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM07,Ocean acidification,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM08,Spring tidal shift,hazard
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM09,Coastal erosion,hazard
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM10,Sand deposition,hazard
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM11,Sedimentation,hazard
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM12,Coastal forest cover,habitat
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM13,Seagrass cover,habitat
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM14,Mangrove cover decline,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM15,Small islands decline,hazard
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM16,Beaches and ruins,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM17,Farming activities,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM18,Indigenous trees,habitat
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM19,Coral cover decline,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM20,Mangrove,habitat
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM21,Mammals and reptiles,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM22,Tourism,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM23,Political interference,governance
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM24,Illegal fishing practice,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM25,Coral bleaching,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM26,Bait extraction,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM27,Wildlife increase,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM28,Employment opportunities,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM29,Fungal diseases,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM30,Coral reef,habitat
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM31,Fish population,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM32,Construction material extraction,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM33,Birds,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM34,SME,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM35,Seaweed farming,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM36,Decline in seaweed yield,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM37,Algae blooming,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM38,Effective conservation,governance
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM39,Cultural activities,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM40,"Stability, advertisement and attraction",livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM41,Number of farmers,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM42,Legal framework and market,governance
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM43,Decrease in farming space,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM44,Sea turtles,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM45,Whale shark,benefit
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM46,Rufiji river discharge,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM47,Human population growth,driver
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM48,Immigration,livelihood
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM49,Faeces of bat,pressure
+PM,park-manager participatory CLD (Figure 1; confirmed attribution),PM50,Sedimentation (local),hazard
+COM,community participatory CLD (Figure 2; confirmed attribution),CO01,Temperature rise,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO02,Cyclone,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO03,Heavy rainfall,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO04,Seawater salinity,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO05,Freshwater intrusion,hazard
+COM,community participatory CLD (Figure 2; confirmed attribution),CO06,Coastal erosion,hazard
+COM,community participatory CLD (Figure 2; confirmed attribution),CO07,Coral bleaching,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO08,Loss of seaweed farms,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO09,Sediment load,hazard
+COM,community participatory CLD (Figure 2; confirmed attribution),CO10,Mangrove loss,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO11,Coastal sand extraction,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO12,Beaches decline,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO13,Coral mortality,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO14,Seagrass cover losses,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO15,Coastal forest cover,habitat
+COM,community participatory CLD (Figure 2; confirmed attribution),CO16,Mangrove cover,habitat
+COM,community participatory CLD (Figure 2; confirmed attribution),CO17,Bait digging,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO18,Establish protected forest,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO19,Coral cover,habitat
+COM,community participatory CLD (Figure 2; confirmed attribution),CO20,Fish population,benefit
+COM,community participatory CLD (Figure 2; confirmed attribution),CO21,Seaweed bleaching,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO22,Decline seaweed yields,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO23,Construction material extraction,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO24,Construction of beach barriers,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO25,Coral reef condition,habitat
+COM,community participatory CLD (Figure 2; confirmed attribution),CO26,Fish catch,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO27,Seagrasses condition,habitat
+COM,community participatory CLD (Figure 2; confirmed attribution),CO28,Household income,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO29,Farm expansion,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO30,Ruins,benefit
+COM,community participatory CLD (Figure 2; confirmed attribution),CO31,Education and awareness campaign,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO32,Illegal fishing practices,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO33,Economic motivation,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO34,Fishing pressure,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO35,Human population growth,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO36,Tourism,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO37,Bribery,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO38,Ineffective MCS,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO39,Foreign fishers unaware of park regulations,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO40,Foreign fishers,pressure
+COM,community participatory CLD (Figure 2; confirmed attribution),CO41,Effective enforcement,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO42,Beekeeping,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO43,Ocean current,driver
+COM,community participatory CLD (Figure 2; confirmed attribution),CO44,Demand for illegally caught fish,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO45,Crimes and moral degradation,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO46,Overlap between VLC and village leaders,governance
+COM,community participatory CLD (Figure 2; confirmed attribution),CO47,Lack of seaweed market,livelihood
+COM,community participatory CLD (Figure 2; confirmed attribution),CO48,Low seaweed price,livelihood
