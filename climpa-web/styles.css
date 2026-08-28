@@ -1,0 +1,695 @@
+/* CliMPA site styles
+   Palette: deep reef teal, sand, coral accent, driftwood grey
+*/
+
+:root {
+  /* Sampled from the CliMPA logo, lightened for better contrast/readability */
+  --teal-900: #1a3540;
+  --teal-700: #29505d;
+  --teal-500: #3aa0d6;
+  --sand-50: #f7f9f9;
+  --sand-100: #eaf1f2;
+  --coral-500: #d79b1f;
+  --coral-600: #b17f12;
+  --ink-900: #182226;
+  --ink-600: #4c5a5f;
+  --ink-300: #94a3a8;
+  --line: #d7e2e4;
+  --max-w: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: "Newsreader", Georgia, "Times New Roman", serif;
+  background: var(--sand-50);
+  color: var(--ink-900);
+  line-height: 1.65;
+}
+
+body, h1, h2, h3, h4, p, ul, ol, table {
+  font-family: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Newsreader", Georgia, serif;
+  color: var(--teal-900);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+a { color: var(--teal-700); }
+a:hover { color: var(--coral-600); }
+
+code {
+  background: var(--sand-100);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* ---------- Header / nav ---------- */
+
+.site-header {
+  background: var(--teal-900);
+  border-bottom: 3px solid var(--coral-500);
+}
+
+.nav-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--sand-50);
+}
+
+.brand-mark {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+}
+
+.brand-sub {
+  font-size: 0.78rem;
+  color: #cfe3df;
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+nav.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+nav.primary-nav > ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 4px;
+}
+
+nav.primary-nav a {
+  display: block;
+  padding: 10px 14px;
+  color: #e7efec;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+nav.primary-nav a:hover,
+nav.primary-nav a[aria-current="page"] {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.has-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 10px 14px;
+  margin: 0;
+  color: #e7efec;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.dropdown-toggle:hover,
+.has-dropdown.open .dropdown-toggle {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.dropdown-toggle .caret {
+  font-size: 0.65em;
+  transition: transform 0.15s ease;
+}
+
+.has-dropdown.open .caret,
+.has-dropdown:hover .caret {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 240px;
+  background: var(--teal-700);
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  padding: 6px;
+  margin-top: 6px;
+  display: none;
+  list-style: none;
+}
+
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown.open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 9px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.dropdown-menu li a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* ---------- Page shell ---------- */
+
+main {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 56px 24px 100px;
+}
+
+/* Keep prose readable even though the page shell is wide; grids/tables use the full width */
+main > p,
+main > ul,
+main > ol,
+main > blockquote {
+  max-width: 75ch;
+}
+
+.page-eyebrow {
+  font-family: "Source Sans 3", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: var(--coral-600);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  font-size: 2.4rem;
+  margin: 0 0 18px;
+}
+
+.lede {
+  font-size: 1.15rem;
+  color: var(--ink-600);
+  max-width: 65ch;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 40px 0;
+}
+
+/* ---------- Tables (source list) ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 36px;
+  font-size: 0.88rem;
+}
+
+caption { display: none; }
+
+th, td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+th {
+  background: var(--teal-900);
+  color: var(--sand-50);
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+tbody tr:nth-child(odd) {
+  background: var(--sand-100);
+}
+
+/* horizontal scroll on small screens instead of squashing tables */
+.table-scroll {
+  overflow-x: auto;
+  margin: 20px 0 36px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.table-scroll table { margin: 0; }
+
+/* ---------- Resource cards (Resources page) ---------- */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin: 32px 0;
+}
+
+.resource-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--coral-500);
+  border-radius: 6px;
+  padding: 22px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(11, 61, 58, 0.12);
+}
+
+.resource-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+}
+
+.resource-card p {
+  margin: 0;
+  color: var(--ink-600);
+  font-size: 0.92rem;
+}
+
+.resource-tag {
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--teal-500);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* ---------- Home hero ---------- */
+
+.hero {
+  background: linear-gradient(160deg, var(--teal-900), var(--teal-700));
+  color: #f2f6f4;
+  margin: -56px -24px 48px;
+  padding: 72px 24px 56px;
+}
+
+.hero-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.hero .page-eyebrow { color: #a9e0d3; }
+.hero h1 { color: #ffffff; }
+.hero p.lede { color: #d8e7e2; }
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.stat {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.stat .num {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.8rem;
+  color: var(--coral-500);
+  display: block;
+}
+
+.stat .label {
+  font-size: 0.78rem;
+  color: #cfe3df;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+footer.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 24px 60px;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-300);
+}
+
+@media (max-width: 720px) {
+  nav.primary-nav > ul { gap: 0; }
+  .brand-sub { display: none; }
+  .page-title { font-size: 1.8rem; }
+  .hero { padding: 48px 20px 40px; }
+}
+
+/* ---------- Logo mark ---------- */
+
+.logo-mark {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #fff;
+}
+
+.about-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin: 8px 0 32px;
+  flex-wrap: wrap;
+}
+
+.about-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 24px rgba(18, 36, 43, 0.18);
+  flex-shrink: 0;
+}
+
+/* ---------- Partner logo strip (Team page) ---------- */
+
+.logo-strip-wrap {
+  margin: 40px 0 8px;
+  padding: 32px 24px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo-strip-wrap img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.logo-strip-caption {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-300);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 18px;
+}
+
+/* ---------- People / profile cards (Team page) ---------- */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin: 24px 0 44px;
+}
+
+.person-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.person-photo {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 16px;
+  display: block;
+  box-shadow: 0 4px 14px rgba(18, 36, 43, 0.15);
+}
+
+.person-name {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--teal-900);
+  margin: 0 0 2px;
+}
+
+.person-role {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--coral-600);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.person-bio {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-600);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.person-card.is-placeholder {
+  border-style: dashed;
+  background: var(--sand-100);
+}
+
+.person-card.is-placeholder .person-photo {
+  box-shadow: none;
+  opacity: 0.85;
+}
+
+/* ---------- Pull quote (About page) ---------- */
+
+.pull-quote {
+  font-family: "Newsreader", Georgia, serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--teal-900);
+  border-left: 4px solid var(--coral-500);
+  padding: 4px 0 4px 20px;
+  margin: 28px 0;
+  max-width: 70ch;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.88rem;
+  color: var(--ink-600);
+  margin: 18px 0 8px;
+}
+
+.meta-row strong { color: var(--teal-900); }
+
+/* ---------- Variable / stat cards (fact sheet pages) ---------- */
+
+.var-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  margin: 24px 0 40px;
+}
+
+.var-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 20px 22px;
+}
+
+.var-card h3 {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--coral-600);
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.var-card .stat-big {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.7rem;
+  color: var(--teal-900);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.var-card .stat-sub {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.82rem;
+  color: var(--ink-300);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.var-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--ink-600);
+}
+
+/* ---------- Risk cards ---------- */
+
+.risk-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin: 24px 0 40px;
+}
+
+.risk-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--coral-500);
+  border-radius: 6px;
+  padding: 20px 22px;
+}
+
+.risk-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.risk-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.risk-badge {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.risk-very-high { background: #fbe0d6; color: var(--coral-600); }
+.risk-high { background: #fdeee5; color: var(--coral-600); }
+.risk-medium-high { background: #fdf3d9; color: #96731a; }
+.risk-medium { background: #e6f0ee; color: var(--teal-700); }
+
+.risk-card p { margin: 0 0 10px; font-size: 0.92rem; color: var(--ink-600); }
+
+.risk-factors {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-300);
+}
+
+.risk-factors strong { color: var(--ink-600); }
+
+/* ---------- Section band (colored section headers, echoing the PDF) ---------- */
+
+.section-band {
+  background: var(--teal-900);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 44px 0 20px;
+}
+
+/* ---------- Partner / team cards ---------- */
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin: 24px 0 40px;
+}
+
+.partner-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 20px 22px;
+}
+
+.partner-card .resource-tag { margin-bottom: 8px; }
+
+.partner-card h3 { margin: 0 0 8px; font-size: 1.05rem; }
+
+.partner-card p { margin: 0; font-size: 0.9rem; color: var(--ink-600); }
+
+/* ---------- Work package table wrapper reuses .table-scroll ---------- */
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--coral-500);
+  color: #fff !important;
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 11px 20px;
+  border-radius: 5px;
+  margin: 14px 0 8px;
+}
+
+.download-btn:hover { background: var(--coral-600); color: #fff !important; }
+
+.callout {
+  background: var(--sand-100);
+  border-left: 4px solid var(--teal-500);
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 0.92rem;
+  color: var(--ink-600);
+  margin: 20px 0;
+}
