@@ -3,10 +3,10 @@
 */
 
 :root {
-  /* Sampled from the CliMPA logo: navy outline, wave blue, sun/wordmark gold */
-  --teal-900: #12242b;
-  --teal-700: #1d3a43;
-  --teal-500: #2f8fc0;
+  /* Sampled from the CliMPA logo, lightened for better contrast/readability */
+  --teal-900: #1a3540;
+  --teal-700: #29505d;
+  --teal-500: #3aa0d6;
   --sand-50: #f7f9f9;
   --sand-100: #eaf1f2;
   --coral-500: #d79b1f;
@@ -15,7 +15,7 @@
   --ink-600: #4c5a5f;
   --ink-300: #94a3a8;
   --line: #d7e2e4;
-  --max-w: 920px;
+  --max-w: 1180px;
 }
 
 * { box-sizing: border-box; }
@@ -129,11 +129,25 @@ nav.primary-nav a[aria-current="page"] {
 .dropdown-toggle {
   display: flex !important;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   cursor: pointer;
   background: none;
   border: none;
   font: inherit;
+  padding: 10px 14px;
+  margin: 0;
+  color: #e7efec;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.dropdown-toggle:hover,
+.has-dropdown.open .dropdown-toggle {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
 }
 
 .dropdown-toggle .caret {
@@ -181,6 +195,14 @@ main {
   max-width: var(--max-w);
   margin: 0 auto;
   padding: 56px 24px 100px;
+}
+
+/* Keep prose readable even though the page shell is wide; grids/tables use the full width */
+main > p,
+main > ul,
+main > ol,
+main > blockquote {
+  max-width: 75ch;
 }
 
 .page-eyebrow {
@@ -365,12 +387,12 @@ footer.site-footer {
 /* ---------- Logo mark ---------- */
 
 .logo-mark {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
   border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 0 0 2px rgba(255,255,255,0.15);
+  object-fit: contain;
+  background: #fff;
 }
 
 .about-logo-wrap {
