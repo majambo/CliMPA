@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Fact Sheets &mdash; CliMPA</title>
+<title>Climate Dashboard &mdash; CliMPA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,13 +18,13 @@
     </a>
     <nav class="primary-nav" aria-label="Primary">
       <ul>
-        <li><a href="climate-dashboard.html">Climate Dashboard</a></li>
-        <li class="has-dropdown open">
-          <button class="dropdown-toggle" aria-expanded="true" aria-haspopup="true">
+        <li><a href="climate-dashboard.html" aria-current="page">Climate Dashboard</a></li>
+        <li class="has-dropdown">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
             Fact Sheets <span class="caret">&#9660;</span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="factsheets.html" aria-current="page">All fact sheets</a></li>
+            <li><a href="factsheets.html">All fact sheets</a></li>
             <li><a href="factsheet-mimp.html">MIMP Fact Sheet</a></li>
           </ul>
         </li>
@@ -37,19 +37,16 @@
 </header>
 <main>
 
-<div class="page-eyebrow">Fact sheets</div>
-<h1 class="page-title">Climate Fact Sheets</h1>
-<p class="lede">Each fact sheet translates essential climate variables into decision-relevant information for the managers responsible for a specific Marine Protected Area in the Western Indian Ocean. Fact sheets are living documents, updated as local monitoring data and refined projections become available.</p>
+<div class="page-eyebrow">Climate Dashboard</div>
+<h1 class="page-title">Climate Dashboard</h1>
+<p class="lede">Live climate indicators and monitoring for the CliMPA project, embedded below. If the dashboard doesn't load in-page, use the link to open it directly.</p>
 
-<div class="resource-grid">
-  <a class="resource-card" href="factsheet-mimp.html">
-    <span class="resource-tag">Tanzania</span>
-    <h3>MIMP Climate Fact Sheet</h3>
-    <p>Mafia Island Marine Park: historical trends and future projections across sea temperature, ocean acidification, sea level rise, storms, and rainfall, with ecosystem risk and management implications.</p>
-  </a>
+<div class="embed-toolbar">
+  <a class="embed-open-link" href="https://majambo.github.io/climpa_dashboard/" target="_blank" rel="noopener">Open dashboard in a new tab &#8599;</a>
 </div>
-
-<div class="callout">More WIO fact sheets will be added here as the CliMPA work packages progress (see the project's <a href="climate-dashboard.html">work plan</a>).</div>
+<div class="embed-wrap">
+  <iframe src="https://majambo.github.io/climpa_dashboard/" title="CliMPA Climate Dashboard" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 </main>
 
