@@ -344,10 +344,10 @@ hr {
 
 .stat-row {
   width: min(100%, 1180px);
-  margin: 46px auto 0;
+  margin: 42px auto 0;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
   border-top: 1px solid rgba(255,255,255,0.18);
 }
@@ -444,28 +444,41 @@ tbody tr:last-child td { border-bottom: 0; }
 .partner-grid,
 .people-grid {
   display: grid;
-  gap: 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin: 24px 0 44px;
 }
 
 .resource-grid {
-  margin: 32px 0;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 380px));
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  max-width: 980px;
+  margin: 32px auto;
 }
 
 .var-grid {
-  margin: 24px 0 42px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 980px;
+  margin: 24px auto 40px;
 }
 
 .risk-grid {
-  margin: 24px 0 42px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 980px;
+  margin: 24px auto 40px;
 }
 
 .partner-grid {
-  margin: 24px 0 42px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 980px;
+  margin: 24px auto 40px;
 }
 
 .people-grid {
@@ -861,5 +874,58 @@ tbody tr:last-child td { border-bottom: 0; }
 
   .home-page .logo-strip-wrap {
     width: calc(100% - 36px);
+  }
+}
+
+
+/* ==========================================================
+   SINGLE-COLUMN CONTENT OVERRIDE
+   Prevents responsive grids from resolving into two columns.
+   ========================================================== */
+
+.page-intro,
+.page-summary,
+.source-note,
+.section-lede {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main > p,
+main > ul,
+main > ol,
+main > blockquote {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resource-grid,
+.var-grid,
+.risk-grid,
+.partner-grid {
+  grid-template-columns: 1fr !important;
+}
+
+@media (max-width: 1100px) {
+  .people-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stat-row {
+    grid-template-columns: 1fr !important;
+    max-width: 760px;
+  }
+}
+
+@media (min-width: 1101px) {
+  .people-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  .stat-row {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 }
