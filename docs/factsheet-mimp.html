@@ -19,8 +19,8 @@
     <nav class="primary-nav" aria-label="Primary">
       <ul>
         <li><a href="climate-dashboard.html">Climate Dashboard</a></li>
-        <li class="has-dropdown open">
-          <button class="dropdown-toggle" aria-expanded="true" aria-haspopup="true">
+        <li class="has-dropdown is-current">
+          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
             Fact Sheets <span class="caret">&#9660;</span>
           </button>
           <ul class="dropdown-menu">
@@ -37,12 +37,14 @@
 </header>
 <main>
 
-<div class="page-eyebrow">Fact sheet &middot; Tanzania</div>
-<h1 class="page-title">Mafia Island Marine Park (MIMP) Climate Fact Sheet</h1>
-<p class="lede">Supporting climate-smart MPA management in the Western Indian Ocean.</p>
-<a class="download-btn" href="assets/MIMP_Factsheet.pdf">&#8681; Download the full PDF</a>
+<header class="page-intro">
+  <div class="page-eyebrow">Fact sheet &middot; Tanzania</div>
+  <h1 class="page-title">Mafia Island Marine Park Climate Fact Sheet</h1>
+  <p class="lede">Climate trends, future projections, ecosystem risks and management implications for MIMP.</p>
+  <a class="download-btn" href="assets/MIMP_Factsheet.pdf">&#8681; Download the full PDF</a>
+</header>
 
-<h2>Abstract</h2>
+<div class="section-band">1. Overview</div>
 <p>Marine Protected Areas in the Western Indian Ocean are on the frontline of climate change. Rising sea temperatures, shifting ocean chemistry, accelerating sea level rise, and increasingly erratic rainfall are fundamentally altering the ecosystems that MPAs are designed to protect and the livelihoods of the communities that depend on them. Effective MPA management increasingly requires climate literacy: the ability to understand, interpret, and act on climate data.</p>
 <p>Mafia Island Marine Park occupies a particularly exposed position within the Western Indian Ocean region. Located within the East African Coastal Current system, MIMP's reefs, seagrass meadows, and mangrove forests are subject to the compound pressures of warming, acidification, and sea-level rise, layered on top of longstanding local stressors, including fishing pressure, sedimentation from the Rufiji River delta, and land-based pollution. The communities that depend on MIMP, approximately 66,180 people on Mafia Island alone, have limited adaptive capacity and few formal safety nets to buffer the economic shocks that ecological degradation brings.</p>
 <p>Despite this exposure, climate change remains inadequately integrated into MPA management due to a lack of marine climate change indicators across the Western Indian Ocean region. This fact sheet translates available essential climate variables into decision-relevant information for MIMP's managers, organised around eight climate variables, each presented with a clear narrative from historical trends through to future projections under contrasting emission scenarios.</p>
@@ -94,7 +96,7 @@
 </div>
 
 <div class="section-band">3. Summary of Projected Future Climate (to 2100)</div>
-<p class="lede" style="font-size:0.95rem;">Middle-of-the-road (SSP2-4.5) and high-emissions (SSP5-8.5) pathways. This is generated from the best currently available data; it does not replace site-specific impact or adaptation studies.</p>
+<p class="section-lede">Middle-of-the-road (SSP2-4.5) and high-emissions (SSP5-8.5) pathways. This is generated from the best currently available data; it does not replace site-specific impact or adaptation studies.</p>
 <div class="var-grid">
   <div class="var-card">
     <h3>Sea surface temperature</h3>
@@ -195,7 +197,9 @@
 </main>
 
 <footer class="site-footer">
-  CliMPA Project &middot; WIOMSA, CORDIO East Africa, GERICS, TAFIRI, Macquarie University, MPRU, Hereon
+  <span>CliMPA Project</span>
+  <span aria-hidden="true">&middot;</span>
+  <span>Climate-smart MPA management in the Western Indian Ocean</span>
 </footer>
 
 <script src="nav.js"></script>

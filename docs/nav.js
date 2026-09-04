@@ -1,37 +1,37 @@
-// Accessible dropdown: hover works via CSS, this adds click/keyboard/touch support
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.has-dropdown > .dropdown-toggle').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      var parent = btn.closest('.has-dropdown');
-      var isOpen = parent.classList.contains('open');
+// CliMPA navigation: accessible click, touch and keyboard support for dropdowns.
+document.addEventListener("DOMContentLoaded", () => {
+  const dropdowns = [...document.querySelectorAll(".has-dropdown")];
 
-      document.querySelectorAll('.has-dropdown.open').forEach(function (el) {
-        if (el !== parent) {
-          el.classList.remove('open');
-          el.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
-        }
-      });
+  function closeDropdown(dropdown) {
+    dropdown.classList.remove("open");
+    const button = dropdown.querySelector(".dropdown-toggle");
+    if (button) button.setAttribute("aria-expanded", "false");
+  }
 
-      parent.classList.toggle('open', !isOpen);
-      btn.setAttribute('aria-expanded', String(!isOpen));
+  dropdowns.forEach((dropdown) => {
+    const button = dropdown.querySelector(".dropdown-toggle");
+    if (!button) return;
+
+    button.addEventListener("click", () => {
+      const willOpen = !dropdown.classList.contains("open");
+      dropdowns.forEach(closeDropdown);
+
+      if (willOpen) {
+        dropdown.classList.add("open");
+        button.setAttribute("aria-expanded", "true");
+      }
     });
   });
 
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('.has-dropdown')) {
-      document.querySelectorAll('.has-dropdown.open').forEach(function (el) {
-        el.classList.remove('open');
-        el.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
-      });
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".has-dropdown")) {
+      dropdowns.forEach(closeDropdown);
     }
   });
 
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('.has-dropdown.open').forEach(function (el) {
-        el.classList.remove('open');
-        el.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
-      });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      dropdowns.forEach(closeDropdown);
     }
   });
 });
