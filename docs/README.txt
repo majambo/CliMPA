@@ -28,3 +28,7 @@ Deployment
 3. Keep the existing assets/ directory and climate-dashboard.html in place.
 4. Test index.html, the Fact Sheets dropdown, the MIMP PDF download, Team
    images, Data Source external links, and the dashboard embed after deployment.
+
+Final update
+- Top navigation/header is sticky on all pages and remains visible while content scrolls.
+- Removed the three redundant home hero buttons because those destinations are already in the main navigation.

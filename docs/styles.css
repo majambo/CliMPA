@@ -67,10 +67,11 @@ code {
 /* ---------- Header and navigation ---------- */
 
 .site-header {
-  position: relative;
-  z-index: 50;
   background: var(--teal-900);
   border-bottom: 3px solid var(--coral-500);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav-wrap {
@@ -928,4 +929,16 @@ main > blockquote {
   .stat-row {
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
+}
+
+
+/* ---------- Final navigation / home refinements ---------- */
+.site-header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+}
+
+.hero .lede {
+  margin-bottom: 20px;
 }
