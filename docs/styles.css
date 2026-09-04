@@ -28,6 +28,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
+  padding-top: 73px; /* space reserved for the fixed desktop header */
   background: var(--sand-50);
   color: var(--ink-900);
   font-family: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -67,11 +68,14 @@ code {
 /* ---------- Header and navigation ---------- */
 
 .site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
   background: var(--teal-900);
   border-bottom: 3px solid var(--coral-500);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 .nav-wrap {
@@ -933,12 +937,41 @@ main > blockquote {
 
 
 /* ---------- Final navigation / home refinements ---------- */
-.site-header {
-  position: sticky !important;
-  top: 0;
-  z-index: 1000;
-}
-
 .hero .lede {
   margin-bottom: 20px;
+}
+
+
+/* ==========================================================
+   FIXED SITE HEADER
+   The navigation remains visible while page content scrolls.
+   ========================================================== */
+
+.site-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
+}
+
+@media (min-width: 901px) {
+  body {
+    padding-top: 73px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* On smaller screens the nav wraps onto additional rows,
+     so reserve more room above the page content. */
+  body {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    padding-top: 175px;
+  }
 }

@@ -32,3 +32,9 @@ Deployment
 Final update
 - Top navigation/header is sticky on all pages and remains visible while content scrolls.
 - Removed the three redundant home hero buttons because those destinations are already in the main navigation.
+
+Fixed-header correction
+- Changed the header from position: sticky to position: fixed.
+- The navigation now stays on screen regardless of the page's scrolling container.
+- Added top padding to the page so content does not disappear underneath the fixed header.
+- Added responsive top spacing for wrapped mobile navigation.
