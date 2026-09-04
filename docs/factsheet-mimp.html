@@ -3,11 +3,199 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MIMP Fact Sheet &mdash; CliMPA</title>
+<title>Climate Fact Sheets &mdash; CliMPA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" />
+<style>
+  /* Page-specific styles for the fact-sheet library/viewer */
+  .factsheet-page {
+    width: min(1400px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 56px 0 72px;
+  }
+
+  .factsheet-intro {
+    max-width: 820px;
+    margin-bottom: 34px;
+  }
+
+  .factsheet-eyebrow {
+    margin-bottom: 8px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .factsheet-title {
+    margin: 0 0 12px;
+    font-family: "Newsreader", serif;
+    font-size: clamp(2.2rem, 5vw, 4.6rem);
+    line-height: 0.98;
+  }
+
+  .factsheet-intro .lede {
+    max-width: 720px;
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.7;
+  }
+
+  .factsheet-library {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+    margin: 0 0 32px;
+  }
+
+  .factsheet-card {
+    display: block;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 14px;
+    background: #fff;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  }
+
+  .factsheet-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+  }
+
+  .factsheet-card.is-active {
+    border-color: #e3a21a;
+  }
+
+  .factsheet-card.is-placeholder {
+    opacity: 0.62;
+    cursor: default;
+  }
+
+  .factsheet-card .status {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .factsheet-card.is-active .status {
+    color: #b77700;
+  }
+
+  .factsheet-card h2 {
+    margin: 0 0 6px;
+    font-family: "Newsreader", serif;
+    font-size: 1.45rem;
+  }
+
+  .factsheet-card p {
+    margin: 0;
+    font-size: 0.94rem;
+    line-height: 1.5;
+    opacity: 0.75;
+  }
+
+  .viewer-shell {
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 16px;
+    background: #f4f1ea;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.07);
+  }
+
+  .viewer-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 15px 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.10);
+    background: #fff;
+  }
+
+  .viewer-title {
+    min-width: 0;
+  }
+
+  .viewer-title strong {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .viewer-title span {
+    display: block;
+    margin-top: 2px;
+    font-size: 0.82rem;
+    opacity: 0.62;
+  }
+
+  .viewer-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+
+  .viewer-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 13px;
+    border: 1px solid rgba(0,0,0,0.14);
+    border-radius: 999px;
+    color: inherit;
+    background: #fff;
+    font-size: 0.86rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .viewer-btn.primary {
+    border-color: #e3a21a;
+    background: #e3a21a;
+    color: #161616;
+  }
+
+  .pdf-frame {
+    display: block;
+    width: 100%;
+    height: min(82vh, 1050px);
+    min-height: 680px;
+    border: 0;
+    background: #e7e7e7;
+  }
+
+  .pdf-fallback {
+    padding: 18px;
+    margin: 0;
+    background: #fff;
+    text-align: center;
+    font-size: 0.92rem;
+  }
+
+  @media (max-width: 720px) {
+    .factsheet-page {
+      width: min(100% - 24px, 1400px);
+      padding-top: 36px;
+    }
+
+    .viewer-toolbar {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .pdf-frame {
+      min-height: 620px;
+      height: 76vh;
+    }
+  }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -24,8 +212,8 @@
             Fact Sheets <span class="caret">&#9660;</span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="factsheets.html">All fact sheets</a></li>
-            <li><a href="factsheet-mimp.html" aria-current="page">MIMP Fact Sheet</a></li>
+            <li><a href="factsheets.html" aria-current="page">All fact sheets</a></li>
+            <li><a href="#mimp">MIMP Fact Sheet</a></li>
           </ul>
         </li>
         <li><a href="data-source.html">Data Source</a></li>
@@ -35,165 +223,52 @@
     </nav>
   </div>
 </header>
-<main>
 
-<header class="page-intro">
-  <div class="page-eyebrow">Fact sheet &middot; Tanzania</div>
-  <h1 class="page-title">Mafia Island Marine Park Climate Fact Sheet</h1>
-  <p class="lede">Climate trends, future projections, ecosystem risks and management implications for MIMP.</p>
-  <a class="download-btn" href="assets/MIMP_Factsheet.pdf">&#8681; Download the full PDF</a>
-</header>
+<main class="factsheet-page">
+  <header class="factsheet-intro">
+    <div class="factsheet-eyebrow">Climate information for marine protected areas</div>
+    <h1 class="factsheet-title">MPA Climate Fact Sheets</h1>
+    <p class="lede">
+      Site-specific climate information developed with marine protected area managers to support climate-informed planning and decision-making across the Western Indian Ocean.
+    </p>
+  </header>
 
-<div class="section-band">1. Overview</div>
-<p>Marine Protected Areas in the Western Indian Ocean are on the frontline of climate change. Rising sea temperatures, shifting ocean chemistry, accelerating sea level rise, and increasingly erratic rainfall are fundamentally altering the ecosystems that MPAs are designed to protect and the livelihoods of the communities that depend on them. Effective MPA management increasingly requires climate literacy: the ability to understand, interpret, and act on climate data.</p>
-<p>Mafia Island Marine Park occupies a particularly exposed position within the Western Indian Ocean region. Located within the East African Coastal Current system, MIMP's reefs, seagrass meadows, and mangrove forests are subject to the compound pressures of warming, acidification, and sea-level rise, layered on top of longstanding local stressors, including fishing pressure, sedimentation from the Rufiji River delta, and land-based pollution. The communities that depend on MIMP, approximately 66,180 people on Mafia Island alone, have limited adaptive capacity and few formal safety nets to buffer the economic shocks that ecological degradation brings.</p>
-<p>Despite this exposure, climate change remains inadequately integrated into MPA management due to a lack of marine climate change indicators across the Western Indian Ocean region. This fact sheet translates available essential climate variables into decision-relevant information for MIMP's managers, organised around eight climate variables, each presented with a clear narrative from historical trends through to future projections under contrasting emission scenarios.</p>
+  <section class="factsheet-library" aria-label="Available climate fact sheets">
+    <a class="factsheet-card is-active" href="#mimp">
+      <span class="status">Available now</span>
+      <h2>Mafia Island Marine Park</h2>
+      <p>Tanzania &middot; MIMP climate fact sheet</p>
+    </a>
 
-<div class="section-band">2. Current Climate &amp; Historical Trends</div>
-<div class="var-grid">
-  <div class="var-card">
-    <h3>Sea surface temperature</h3>
-    <span class="stat-big">+0.16&deg;C</span>
-    <span class="stat-sub">per decade since 1985 (0.6&deg;C total)</span>
-    <p>Cooler months show an accelerated warming trend, 25% above historical averages, priming habitats for mass mortality during warming periods such as the 2016 and 2020 bleaching events.</p>
-  </div>
-  <div class="var-card">
-    <h3>Marine heat waves</h3>
-    <span class="stat-big">150+ days/yr</span>
-    <span class="stat-sub">since 2015 (few/none in 1980s&ndash;90s)</span>
-    <p>Marine heatwaves have shifted from rare anomalies to a chronic, near-annual phenomenon. The 2024 event set a new record of 150+ days of prolonged thermal stress.</p>
-  </div>
-  <div class="var-card">
-    <h3>Ocean acidification</h3>
-    <span class="stat-big">pH 8.08</span>
-    <span class="stat-sub">historical baseline, 2000&ndash;2018</span>
-    <p>As atmospheric CO2 accumulates, declining carbonate ion availability threatens the calcification capacity of reef-building corals and other calcifying organisms.</p>
-  </div>
-  <div class="var-card">
-    <h3>Salinity</h3>
-    <span class="stat-big">33.61 psu</span>
-    <span class="stat-sub">historical baseline mean, 2000&ndash;2019</span>
-    <p>Serves as a placeholder for local hydrodynamic conditions, heavily influenced by freshwater pulses from the Rufiji River delta.</p>
-  </div>
-  <div class="var-card">
-    <h3>Sea level rise</h3>
-    <span class="stat-big">+3.47 mm/yr</span>
-    <span class="stat-sub">1993&ndash;2025 (10.7 cm cumulative)</span>
-    <p>Accelerates shoreline erosion, exacerbates saltwater intrusion into coastal freshwater lenses, and starves landward ecosystems of migration space.</p>
-  </div>
-  <div class="var-card">
-    <h3>Storms &amp; cyclone exposure</h3>
-    <span class="stat-big">3</span>
-    <span class="stat-sub">record-intensity systems since 2014</span>
-    <p>Though traditionally outside the primary cyclone belt, systems such as Hellen (2014), Freddy (2023), and Hidaya (2024) made landfall, fracturing branching coral and stripping coastal protection buffers.</p>
-  </div>
-  <div class="var-card">
-    <h3>Rainfall pattern</h3>
-    <span class="stat-big">Bimodal</span>
-    <span class="stat-sub">Masika long rains (Mar&ndash;May), Vuli short rains (Oct&ndash;Dec)</span>
-    <p>Peaks in April (244mm) and March (172mm); driest in July (11mm). Air temperatures range from 23.95&deg;C mean in July to 28.04&deg;C mean in February.</p>
-  </div>
-</div>
+    <article class="factsheet-card is-placeholder" aria-disabled="true">
+      <span class="status">Coming soon</span>
+      <h2>Western Indian Ocean</h2>
+      <p>Additional MPA fact sheets will be added here as they are developed.</p>
+    </article>
+  </section>
 
-<div class="section-band">3. Summary of Projected Future Climate (to 2100)</div>
-<p class="section-lede">Middle-of-the-road (SSP2-4.5) and high-emissions (SSP5-8.5) pathways. This is generated from the best currently available data; it does not replace site-specific impact or adaptation studies.</p>
-<div class="var-grid">
-  <div class="var-card">
-    <h3>Sea surface temperature</h3>
-    <p>Mid-century warming of +1.0&deg;C above baseline is effectively locked in under both pathways. By end-century, warming levels off near +1.5&deg;C under SSP2-4.5 versus +3.0&deg;C under SSP5-8.5. Marine heatwave durations are projected to surge to 300+ days annually by end-century.</p>
-  </div>
-  <div class="var-card">
-    <h3>Ocean acidification</h3>
-    <p>Under SSP2-4.5, pH anomaly reaches -0.09 by 2050 and -0.13 by end-century. Under SSP5-8.5, acidification accelerates sharply to -0.13 by 2050 and -0.27 by 2080&ndash;2090, severely impeding coral and coralline algae calcification.</p>
-  </div>
-  <div class="var-card">
-    <h3>Sea level rise</h3>
-    <p>Likely range of +0.42 to +0.89 m under the low-emission scenario, and +0.61 to +1.17 m under the high-emission scenario, by 2100.</p>
-  </div>
-  <div class="var-card">
-    <h3>Salinity</h3>
-    <p>Considerable interannual variability, roughly -6 to +2 PSU around baseline. High-emission scenarios suggest a persistent slight negative anomaly of about -2 PSU across decades, driven by intensified freshwater runoff.</p>
-  </div>
-  <div class="var-card">
-    <h3>Storms &amp; extreme events</h3>
-    <p>A category-dependent pattern: weaker systems (tropical storm through Category 3) show median frequency declines of roughly -10% across the Tanzanian EEZ, while Category 5 landfalls show a median increase of +5.2%, a "fewer but more intense" signal. Confidence is low.</p>
-  </div>
-  <div class="var-card">
-    <h3>Rainfall &amp; freshwater runoff</h3>
-    <p>Seasonal projections indicate rainfall increasing by a median of +3% to +15% across both pathways, with shifts toward concentrated, intense rainfall events driving high-volume terrestrial runoff.</p>
-  </div>
-</div>
+  <section id="mimp" class="viewer-shell" aria-labelledby="mimp-viewer-title">
+    <div class="viewer-toolbar">
+      <div class="viewer-title">
+        <strong id="mimp-viewer-title">Mafia Island Marine Park Climate Fact Sheet</strong>
+        <span>Scroll through the complete document below.</span>
+      </div>
+      <div class="viewer-actions">
+        <a class="viewer-btn" href="assets/MIMP_Factsheet.pdf" target="_blank" rel="noopener">Open PDF</a>
+        <a class="viewer-btn primary" href="assets/MIMP_Factsheet.pdf" download>Download PDF</a>
+      </div>
+    </div>
 
-<div class="section-band">4. Impacts, Risk &amp; Vulnerability</div>
-<p>Risk is understood as the product of hazard exposure, ecological/social sensitivity, and adaptive capacity.</p>
+    <iframe
+      class="pdf-frame"
+      src="assets/MIMP_Factsheet.pdf#toolbar=1&navpanes=0&view=FitH"
+      title="Mafia Island Marine Park Climate Fact Sheet PDF">
+    </iframe>
 
-<h3>Ecological systems</h3>
-<div class="risk-grid">
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Coral reefs</h3><span class="risk-badge risk-very-high">Very high</span></div>
-    <p>Warming seas and increasingly frequent marine heatwaves are pushing conditions beyond coral thermal tolerance, making annual bleaching events likely to become the norm. Ocean acidification weakens the calcification corals need to recover between stress events.</p>
-    <p class="risk-factors"><strong>Exposure:</strong> very high &middot; <strong>Sensitivity:</strong> very high &middot; <strong>Adaptive capacity:</strong> low</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Seagrass meadows</h3><span class="risk-badge risk-very-high">Very high</span></div>
-    <p>Rising sea temperatures increase the likelihood of thermal stress episodes, raising the risk of periodic die-off. Recovery depends on water clarity, itself vulnerable to erosion and sedimentation.</p>
-    <p class="risk-factors"><strong>Exposure:</strong> high &middot; <strong>Sensitivity:</strong> high &middot; <strong>Adaptive capacity:</strong> low</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Mangrove forests</h3><span class="risk-badge risk-high">High</span></div>
-    <p>Rising sea levels raise the likelihood of widespread inundation in stands that lack space to migrate landward. Sustained waterlogging converts these areas from carbon sinks into carbon sources.</p>
-    <p class="risk-factors"><strong>Exposure:</strong> high &middot; <strong>Sensitivity:</strong> medium &middot; <strong>Adaptive capacity:</strong> low&ndash;medium</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Seaweed</h3><span class="risk-badge risk-very-high">Very high</span></div>
-    <p>Sustained ocean warming pushes cultivated seaweed beyond its thermal tolerance with increasing frequency. Declining nearshore salinity from increased rainfall and Rufiji River discharge adds osmotic stress.</p>
-    <p class="risk-factors"><strong>Exposure:</strong> high &middot; <strong>Sensitivity:</strong> high &middot; <strong>Adaptive capacity:</strong> low</p>
-  </div>
-</div>
-
-<h3>Socioeconomic sectors</h3>
-<p>Ecological degradation at MIMP translates directly into livelihood losses for some of the most economically vulnerable communities. Compound losses across reef fisheries, seagrass-associated species, and intertidal foraging will reduce protein availability for a population already dependent on marine resources for nutritional security.</p>
-<div class="risk-grid">
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Artisanal fisheries</h3><span class="risk-badge risk-high">High</span></div>
-    <p>Continued warming and more frequent bleaching are likely to drive a substantial decline in reef fish biomass, reducing catch income, with no formal safety net currently in place.</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Seaweed farming</h3><span class="risk-badge risk-medium-high">Medium-high</span></div>
-    <p>Warming and declining nearshore salinity together raise the risk of crop failure and income volatility, with no climate-resilient cultivar substitution programme in place.</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Tourism</h3><span class="risk-badge risk-medium">Medium</span></div>
-    <p>Reef degradation will reduce MIMP's international draw for diving and snorkelling, threatening around 120 enterprises; beach erosion may affect resort infrastructure by 2050 under higher-emission scenarios.</p>
-  </div>
-  <div class="risk-card">
-    <div class="risk-card-head"><h3>Coastal settlements</h3><span class="risk-badge risk-high">High</span></div>
-    <p>Accelerated sea-level rise combined with intensified storm surges presents a near-certain hazard for low-lying residential areas: displacement, well contamination, and infrastructure damage.</p>
-  </div>
-</div>
-
-<div class="section-band">5. Implications for MPA Management</div>
-<div class="var-grid">
-  <div class="var-card">
-    <h3>Climate-smart zoning</h3>
-    <p>Identify and strictly protect climate refugia reef sites with natural thermal buffering; establish adaptive management triggers that activate enhanced protection automatically; protect landward migration corridors for mangroves.</p>
-  </div>
-  <div class="var-card">
-    <h3>Monitoring priorities</h3>
-    <p>SST loggers; annual GCRMN-protocol coral transect surveys; ecosystem mapping; community-based catch monitoring aligned to TAFIRI stock assessments. All data stored in FAIR-compliant format.</p>
-  </div>
-  <div class="var-card">
-    <h3>Early-warning systems</h3>
-    <p>A tiered bleaching early-warning system: NOAA CoralWatch DHW alerts for MIMP coordinates; retrieval and analysis of installed data loggers; response protocol activated at DHW 4&deg;C-weeks (watch) and 8&deg;C-weeks (warning). SLR early-warning via tide gauge anomalies and pre-storm surge alerts.</p>
-  </div>
-  <div class="var-card">
-    <h3>Integration into management plans</h3>
-    <p>MIMP's next General Management Plan revision should include a climate change section, quantified review thresholds, an adaptive management timeline, a climate finance strategy referencing Green Climate Fund eligibility, and an annual data review requirement.</p>
-  </div>
-</div>
-
-<div class="callout">This fact sheet is a living document, updated as local monitoring data and refined projections become available. See the <a href="data-source.html">Data Source</a> page for the full register of datasets and literature behind these figures.</div>
-
+    <p class="pdf-fallback">
+      If the PDF does not display in your browser, <a href="assets/MIMP_Factsheet.pdf" target="_blank" rel="noopener">open it in a new tab</a>.
+    </p>
+  </section>
 </main>
 
 <footer class="site-footer">
